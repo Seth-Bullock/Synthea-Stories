@@ -238,5 +238,5 @@ def patient_header_text(patient: Patient) -> str:
         f"Patient: {patient.full_name} ({patient.gender}, born {patient.birth_date:%d %B %Y})",
         f"Race/ethnicity: {patient.race}, {patient.ethnicity}",
         f"Lives in: {patient.city}, {patient.state}",
-        f"Primary care practice: {patient.practice_name.title()} ({patient.practice_city})",
+        f"Primary care practice: {patient.practice} ({patient.practice_city})",
     ])

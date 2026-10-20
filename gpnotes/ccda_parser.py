@@ -78,6 +78,12 @@ class Patient:
     def full_name(self) -> str:
         return f"{self.given_name} {self.family_name}"
 
+    @property
+    def practice(self) -> str:
+        """Practice name in normal case: 'WESTON PRIMARY CARE, PC' -> 'Weston Primary Care, PC'."""
+        name = self.practice_name.title()
+        return re.sub(r"\b(Pc|Llc|Pllc|Md|Inc)\b", lambda m: m.group(1).upper(), name)
+
     def age_on(self, when: datetime) -> int:
         b = self.birth_date
         return when.year - b.year - ((when.month, when.day) < (b.month, b.day))

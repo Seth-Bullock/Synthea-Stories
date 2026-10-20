@@ -5,6 +5,14 @@ into rich, natural-language patient histories: a sequence of GP consultation not
 written by the patient, produced by an open-weight LLM. The output is a teaching dataset for an
 AI for Medicine and Healthcare unit. **All patients and documents are entirely synthetic.**
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Seth-Bullock/Synthea-Stories/blob/main/notebooks/Synthea_Stories_Colab.ipynb)
+
+## Quick start (Google Colab, free tier)
+
+Click the button above, choose *Runtime → Change runtime type → T4 GPU*, and run the cells in order.
+The notebook installs [Ollama](https://ollama.com), downloads an open-weight model (default
+`gemma3:12b`), and writes the output to your Google Drive.
+
 ## Pipeline
 
 1. **Parse** (`gpnotes/ccda_parser.py`): read the C-CDA into dated events (conditions,
@@ -12,10 +20,15 @@ AI for Medicine and Healthcare unit. **All patients and documents are entirely s
 2. **Group into episodes** (`gpnotes/episodes.py`): one episode per encounter, recording what
    changed at that visit plus what was already active. Leftover events become "between visits"
    episodes.
-3. **Generate** *(in progress)*: an LLM invents a consistent patient background, then writes
-   GP notes and patient letters episode by episode.
-4. **Assemble and check** *(planned)*: one text file per patient, plus a ground-truth JSON for
-   marking students' tools.
+3. **Plan** (`gpnotes/planner.py`): decide which documents to write. Every primary-care visit
+   gets a GP note; A&E and hospital visits get a letter to the GP; patient messages are added
+   at random, more often around visits where something changed.
+4. **Generate** (`gpnotes/generate.py`, prompts in `gpnotes/prompts.py`): the LLM first invents
+   a consistent background for the patient (family, work, personality, writing style, GPs), then
+   writes each document from that profile, summaries of earlier documents, and the episode's
+   facts.
+5. **Assemble**: one plain-text file per patient, documents in date order, plus a
+   ground-truth JSON of the original record for checking students' tools.
 
 ## Try the parser
 
@@ -27,3 +40,25 @@ This writes `output/<Name>.timeline.txt` (readable episode fact sheets) and
 `output/<Name>.ground_truth.json`. Example outputs for the sample patient are in `samples/`.
 
 Requires Python 3.10+ and only the standard library.
+
+## Generate from the command line
+
+With an [Ollama](https://ollama.com) server running locally:
+
+```bash
+python generate_patient.py samples/Alexandra16_Mosciski958.xml --model gemma3:12b
+python generate_patient.py path/to/folder_of_ccda_files/
+python generate_patient.py samples/Alexandra16_Mosciski958.xml --dry-run   # no model; check prompts
+```
+
+Output for each patient:
+
+| File | Contents |
+| --- | --- |
+| `output/<Name>.txt` | the finished record: the student dataset |
+| `output/<Name>/profile.json` | the invented background |
+| `output/<Name>/documents.jsonl` | each document with its date, type, author and summary (checkpoint) |
+| `output/<Name>/prompts/` | the exact prompt used for each document |
+| `output/<Name>/ground_truth.json` | the parsed Synthea record |
+
+Interrupted runs resume where they stopped.
