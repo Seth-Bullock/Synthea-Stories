@@ -1,7 +1,7 @@
 Patient: Alexandra Mosciski (female, born 25 May 1981)
 Race/ethnicity: white, non-hispanic
 Lives in: Waltham, Massachusetts
-Primary care practice: Weston Primary Care, Pc (Weston)
+Primary care practice: Weston Primary Care, PC (Weston)
 
 EPISODE 1: 19 July 1999 (age 18)
 Encounter: General examination of patient (procedure)  [setting: primary care]
