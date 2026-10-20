@@ -1,0 +1,5791 @@
+{
+  "patient": {
+    "id": "37549f60-b5a3-69cd-dea6-5a71c4bc23cf",
+    "given_name": "Alexandra",
+    "family_name": "Mosciski",
+    "gender": "female",
+    "birth_date": "1981-05-25",
+    "race": "white",
+    "ethnicity": "non-hispanic",
+    "language": "en-US",
+    "city": "Waltham",
+    "state": "Massachusetts",
+    "practice_name": "WESTON PRIMARY CARE, PC",
+    "practice_city": "Weston",
+    "record_date": "2026-08-24T22:20:00+00:00",
+    "events": [
+      {
+        "category": "encounter",
+        "start": "1999-07-19T22:20:00+00:00",
+        "description": "General examination of patient (procedure)",
+        "stop": "1999-07-19T23:00:52+00:00",
+        "code": "http://snomed.info/sct 162673000",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "1999-07-19T23:00:52+00:00",
+        "description": "Received higher education (finding)",
+        "stop": null,
+        "code": "http://snomed.info/sct 224299000",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "1999-07-19T23:00:52+00:00",
+        "description": "Transport problem (finding)",
+        "stop": null,
+        "code": "http://snomed.info/sct 266934004",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "1999-07-19T23:27:27+00:00",
+        "description": "Victim of intimate partner abuse (finding)",
+        "stop": "2023-06-05T23:12:14+00:00",
+        "code": "http://snomed.info/sct 706893006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2000-07-24T22:20:00+00:00",
+        "description": "General examination of patient (procedure)",
+        "stop": "2000-07-24T23:06:22+00:00",
+        "code": "http://snomed.info/sct 162673000",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2000-07-24T23:06:22+00:00",
+        "description": "Lack of access to transportation (finding)",
+        "stop": null,
+        "code": "http://snomed.info/sct 713458007",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "medication",
+        "start": "2005-06-05T22:20:00+00:00",
+        "description": "Hydrocortisone 10 MG/ML Topical Cream",
+        "stop": null,
+        "code": "http://www.nlm.nih.gov/research/umls/rxnorm 106258",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2005-06-05T22:20:00+00:00",
+        "description": "Encounter for problem (procedure)",
+        "stop": "2005-06-05T22:35:00+00:00",
+        "code": "http://snomed.info/sct 185347001",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "allergy",
+        "start": "2005-06-18T13:20:00+00:00",
+        "description": "Allergic disposition (finding)",
+        "stop": null,
+        "code": "http://snomed.info/sct 609328004",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2005-06-18T13:20:00+00:00",
+        "description": "Encounter for problem (procedure)",
+        "stop": "2005-06-18T13:48:14+00:00",
+        "code": "http://snomed.info/sct 185347001",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "medication",
+        "start": "2005-06-18T13:48:14+00:00",
+        "description": "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "stop": null,
+        "code": "http://www.nlm.nih.gov/research/umls/rxnorm 997501",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "medication",
+        "start": "2005-06-18T13:48:14+00:00",
+        "description": "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+        "stop": null,
+        "code": "http://www.nlm.nih.gov/research/umls/rxnorm 1870230",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "careplan",
+        "start": "2005-06-18T13:48:14+00:00",
+        "description": "Self-care interventions (procedure)",
+        "stop": null,
+        "code": "http://snomed.info/sct 384758001",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2006-08-07T22:20:00+00:00",
+        "description": "General examination of patient (procedure)",
+        "stop": "2006-08-07T23:17:19+00:00",
+        "code": "http://snomed.info/sct 162673000",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2006-08-07T23:17:19+00:00",
+        "description": "Full-time employment (finding)",
+        "stop": "2016-12-05T23:06:40+00:00",
+        "code": "http://snomed.info/sct 160903007",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2012-08-13T22:20:00+00:00",
+        "description": "Medication review due (situation)",
+        "stop": "2016-12-05T22:20:00+00:00",
+        "code": "http://snomed.info/sct 314529007",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2012-08-13T22:20:00+00:00",
+        "description": "General examination of patient (procedure)",
+        "stop": "2012-08-13T22:55:13+00:00",
+        "code": "http://snomed.info/sct 162673000",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2013-02-26T15:20:00+00:00",
+        "description": "Past pregnancy history of miscarriage (situation)",
+        "stop": null,
+        "code": "http://snomed.info/sct 161744009",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2013-02-26T15:20:00+00:00",
+        "description": "Prenatal visit (regime/therapy)",
+        "stop": "2013-02-26T15:35:00+00:00",
+        "code": "http://snomed.info/sct 424619006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2015-08-17T22:20:00+00:00",
+        "description": "Prediabetes (finding)",
+        "stop": null,
+        "code": "http://snomed.info/sct 714628002",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2015-08-17T22:20:00+00:00",
+        "description": "Anemia (disorder)",
+        "stop": null,
+        "code": "http://snomed.info/sct 271737000",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2015-08-17T22:20:00+00:00",
+        "description": "General examination of patient (procedure)",
+        "stop": "2015-08-17T22:55:15+00:00",
+        "code": "http://snomed.info/sct 162673000",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "careplan",
+        "start": "2015-08-17T22:20:00+00:00",
+        "description": "Diabetes self management plan (record artifact)",
+        "stop": null,
+        "code": "http://snomed.info/sct 735985000",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2015-08-17T22:55:15+00:00",
+        "description": "Limited social contact (finding)",
+        "stop": null,
+        "code": "http://snomed.info/sct 423315002",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2015-08-17T22:55:15+00:00",
+        "description": "Reports of violence in the environment (finding)",
+        "stop": "2016-12-05T23:06:40+00:00",
+        "code": "http://snomed.info/sct 424393004",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "medication",
+        "start": "2016-03-06T22:45:08+00:00",
+        "description": "1 ML medroxyPROGESTERone acetate 150 MG/ML Injection",
+        "stop": "2017-03-01T22:56:41+00:00",
+        "code": "http://www.nlm.nih.gov/research/umls/rxnorm 1000126",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2016-03-06T22:45:08+00:00",
+        "description": "Consultation for treatment (procedure)",
+        "stop": "2016-03-06T23:00:08+00:00",
+        "code": "http://snomed.info/sct 698314001",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "lab",
+        "start": "2016-12-05T22:20:00+00:00",
+        "description": "Glucose [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 2339-0",
+        "value": "65.63 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2016-12-05T22:20:00+00:00",
+        "description": "Urea nitrogen [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 6299-2",
+        "value": "19.64 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2016-12-05T22:20:00+00:00",
+        "description": "Creatinine [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 38483-4",
+        "value": "1.54 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2016-12-05T22:20:00+00:00",
+        "description": "Calcium [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 49765-1",
+        "value": "9.76 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2016-12-05T22:20:00+00:00",
+        "description": "Sodium [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 2947-0",
+        "value": "143.27 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2016-12-05T22:20:00+00:00",
+        "description": "Potassium [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 6298-4",
+        "value": "4.1 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2016-12-05T22:20:00+00:00",
+        "description": "Chloride [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 2069-3",
+        "value": "110.36 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2016-12-05T22:20:00+00:00",
+        "description": "Carbon dioxide, total [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 20565-8",
+        "value": "21.86 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "procedure",
+        "start": "2016-12-05T22:20:00+00:00",
+        "description": "Medication reconciliation (procedure)",
+        "stop": "2016-12-05T22:35:00+00:00",
+        "code": "http://snomed.info/sct 430193006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2016-12-05T22:20:00+00:00",
+        "description": "Assessment of health and social care needs (procedure)",
+        "stop": "2016-12-05T23:06:40+00:00",
+        "code": "http://snomed.info/sct 710824005",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2016-12-05T22:20:00+00:00",
+        "description": "Encounter for check up (procedure)",
+        "stop": "2016-12-05T23:06:40+00:00",
+        "code": "http://snomed.info/sct 185349003",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2016-12-05T22:20:00+00:00",
+        "description": "Body Height",
+        "stop": null,
+        "code": "http://loinc.org 8302-2",
+        "value": "169.8 cm",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2016-12-05T22:20:00+00:00",
+        "description": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+        "stop": null,
+        "code": "http://loinc.org 72514-3",
+        "value": "1",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2016-12-05T22:20:00+00:00",
+        "description": "Body Weight",
+        "stop": null,
+        "code": "http://loinc.org 29463-7",
+        "value": "80.5 kg",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2016-12-05T22:20:00+00:00",
+        "description": "Body mass index (BMI) [Ratio]",
+        "stop": null,
+        "code": "http://loinc.org 39156-5",
+        "value": "27.93 kg/m2",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2016-12-05T22:20:00+00:00",
+        "description": "Heart rate",
+        "stop": null,
+        "code": "http://loinc.org 8867-4",
+        "value": "89 /min",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2016-12-05T22:20:00+00:00",
+        "description": "Respiratory rate",
+        "stop": null,
+        "code": "http://loinc.org 9279-1",
+        "value": "13 /min",
+        "panel": ""
+      },
+      {
+        "category": "immunization",
+        "start": "2016-12-05T22:20:00+00:00",
+        "description": "Influenza, split virus, trivalent, PF",
+        "stop": null,
+        "code": "http://hl7.org/fhir/sid/cvx 140",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2016-12-05T23:06:40+00:00",
+        "description": "Unemployed (finding)",
+        "stop": "2018-08-20T23:15:35+00:00",
+        "code": "http://snomed.info/sct 73438004",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2016-12-05T23:06:40+00:00",
+        "description": "Social isolation (finding)",
+        "stop": "2025-06-09T23:17:20+00:00",
+        "code": "http://snomed.info/sct 422650009",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2016-12-05T23:06:40+00:00",
+        "description": "Assessment of anxiety (procedure)",
+        "stop": "2016-12-05T23:27:18+00:00",
+        "code": "http://snomed.info/sct 710841007",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "survey",
+        "start": "2016-12-05T23:27:18+00:00",
+        "description": "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]",
+        "stop": null,
+        "code": "http://loinc.org 70274-6",
+        "value": "2",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2016-12-05T23:27:18+00:00",
+        "description": "Depression screening (procedure)",
+        "stop": "2016-12-05T23:37:29+00:00",
+        "code": "http://snomed.info/sct 171207006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2016-12-05T23:37:29+00:00",
+        "description": "Depression screening (procedure)",
+        "stop": "2016-12-06T00:07:15+00:00",
+        "code": "http://snomed.info/sct 171207006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "survey",
+        "start": "2016-12-06T00:07:15+00:00",
+        "description": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]",
+        "stop": null,
+        "code": "http://loinc.org 55758-7",
+        "value": "1",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2016-12-06T00:07:15+00:00",
+        "description": "Assessment of substance use (procedure)",
+        "stop": "2016-12-06T00:20:55+00:00",
+        "code": "http://snomed.info/sct 428211000124100",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2016-12-06T00:20:55+00:00",
+        "description": "Screening for drug abuse (procedure)",
+        "stop": "2016-12-06T00:43:47+00:00",
+        "code": "http://snomed.info/sct 713106006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "survey",
+        "start": "2016-12-06T00:43:47+00:00",
+        "description": "Total score [DAST-10]",
+        "stop": null,
+        "code": "http://loinc.org 82667-7",
+        "value": "2",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2016-12-06T00:43:47+00:00",
+        "description": "Gingivitis (disorder)",
+        "stop": "2016-12-20T01:28:01+00:00",
+        "code": "http://snomed.info/sct 66383009",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2016-12-06T00:43:47+00:00",
+        "description": "Patient referral for dental care (procedure)",
+        "stop": "2016-12-06T00:54:03+00:00",
+        "code": "http://snomed.info/sct 103697008",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2016-12-12T22:20:00+00:00",
+        "description": "Viral sinusitis (disorder)",
+        "stop": "2017-01-01T22:20:00+00:00",
+        "code": "http://snomed.info/sct 444814009",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2016-12-12T22:20:00+00:00",
+        "description": "Encounter for symptom (procedure)",
+        "stop": "2016-12-12T22:35:00+00:00",
+        "code": "http://snomed.info/sct 185345009",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2016-12-19T22:20:00+00:00",
+        "description": "Dental consultation and report (procedure)",
+        "stop": "2016-12-19T22:48:57+00:00",
+        "code": "http://snomed.info/sct 34043003",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2016-12-19T22:20:00+00:00",
+        "description": "Encounter for check up (procedure)",
+        "stop": "2016-12-20T02:08:08+00:00",
+        "code": "http://snomed.info/sct 185349003",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2016-12-19T22:48:57+00:00",
+        "description": "Dental care (regime/therapy)",
+        "stop": "2016-12-19T23:28:23+00:00",
+        "code": "http://snomed.info/sct 225362009",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2016-12-19T23:28:23+00:00",
+        "description": "Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure)",
+        "stop": "2016-12-20T00:04:12+00:00",
+        "code": "http://snomed.info/sct 1260009003",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2016-12-20T00:04:12+00:00",
+        "description": "Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure)",
+        "stop": "2016-12-20T00:42:20+00:00",
+        "code": "http://snomed.info/sct 1260010008",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2016-12-20T00:42:20+00:00",
+        "description": "Examination of gingivae (procedure)",
+        "stop": "2016-12-20T01:28:01+00:00",
+        "code": "http://snomed.info/sct 274788003",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "medication",
+        "start": "2016-12-20T01:28:01+00:00",
+        "description": "sodium fluoride 0.0272 MG/MG Oral Gel",
+        "stop": "2016-12-20T01:28:01+00:00",
+        "code": "http://www.nlm.nih.gov/research/umls/rxnorm 1535362",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2016-12-20T01:28:01+00:00",
+        "description": "Dental fluoride treatment (procedure)",
+        "stop": "2016-12-20T01:57:09+00:00",
+        "code": "http://snomed.info/sct 68071007",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2016-12-20T01:57:09+00:00",
+        "description": "Oral health education (procedure)",
+        "stop": "2016-12-20T02:08:08+00:00",
+        "code": "http://snomed.info/sct 243085009",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "medication",
+        "start": "2017-03-01T22:56:41+00:00",
+        "description": "1 ML medroxyprogesterone acetate 150 MG/ML Injection",
+        "stop": "2018-02-24T23:08:45+00:00",
+        "code": "http://www.nlm.nih.gov/research/umls/rxnorm 1000126",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2017-03-01T22:56:41+00:00",
+        "description": "Intramuscular injection (procedure)",
+        "stop": "2017-03-01T23:08:45+00:00",
+        "code": "http://snomed.info/sct 76601001",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2017-03-01T22:56:41+00:00",
+        "description": "Consultation for treatment (procedure)",
+        "stop": "2017-03-01T23:11:41+00:00",
+        "code": "http://snomed.info/sct 698314001",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "medication",
+        "start": "2018-02-24T23:08:45+00:00",
+        "description": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Jolivette 28 Day]",
+        "stop": "2019-02-19T23:08:45+00:00",
+        "code": "http://www.nlm.nih.gov/research/umls/rxnorm 757594",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2018-02-24T23:08:45+00:00",
+        "description": "Consultation for treatment (procedure)",
+        "stop": "2018-02-24T23:23:45+00:00",
+        "code": "http://snomed.info/sct 698314001",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2018-03-26T22:20:00+00:00",
+        "description": "Removal of subcutaneous contraceptive (procedure)",
+        "stop": "2018-03-26T22:45:17+00:00",
+        "code": "http://snomed.info/sct 301807007",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2018-03-26T22:20:00+00:00",
+        "description": "Patient encounter procedure (procedure)",
+        "stop": "2018-03-26T23:10:00+00:00",
+        "code": "http://snomed.info/sct 308335008",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2018-03-26T22:45:17+00:00",
+        "description": "Implantation of subcutaneous contraceptive (procedure)",
+        "stop": "2018-03-26T23:10:00+00:00",
+        "code": "http://snomed.info/sct 169553002",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "lab",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Glucose [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 2339-0",
+        "value": "68.76 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Urea nitrogen [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 6299-2",
+        "value": "7.81 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Creatinine [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 38483-4",
+        "value": "1.39 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Calcium [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 49765-1",
+        "value": "10.12 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Sodium [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 2947-0",
+        "value": "139.89 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Potassium [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 6298-4",
+        "value": "3.96 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Chloride [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 2069-3",
+        "value": "107.42 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Carbon dioxide, total [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 20565-8",
+        "value": "24.16 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Cholesterol [Mass/volume] in Serum or Plasma",
+        "stop": null,
+        "code": "http://loinc.org 2093-3",
+        "value": "162.57 mg/dL",
+        "panel": "Lipid panel with direct LDL - Serum or Plasma"
+      },
+      {
+        "category": "lab",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Triglyceride [Mass/volume] in Serum or Plasma",
+        "stop": null,
+        "code": "http://loinc.org 2571-8",
+        "value": "130.98 mg/dL",
+        "panel": "Lipid panel with direct LDL - Serum or Plasma"
+      },
+      {
+        "category": "lab",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay",
+        "stop": null,
+        "code": "http://loinc.org 18262-6",
+        "value": "84.29 mg/dL",
+        "panel": "Lipid panel with direct LDL - Serum or Plasma"
+      },
+      {
+        "category": "lab",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Cholesterol in HDL [Mass/volume] in Serum or Plasma",
+        "stop": null,
+        "code": "http://loinc.org 2085-9",
+        "value": "52.08 mg/dL",
+        "panel": "Lipid panel with direct LDL - Serum or Plasma"
+      },
+      {
+        "category": "condition",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Medication review due (situation)",
+        "stop": "2021-05-31T22:20:00+00:00",
+        "code": "http://snomed.info/sct 314529007",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Assessment of health and social care needs (procedure)",
+        "stop": "2018-08-20T23:15:35+00:00",
+        "code": "http://snomed.info/sct 710824005",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "General examination of patient (procedure)",
+        "stop": "2018-08-20T23:15:35+00:00",
+        "code": "http://snomed.info/sct 162673000",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Body Height",
+        "stop": null,
+        "code": "http://loinc.org 8302-2",
+        "value": "169.8 cm",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+        "stop": null,
+        "code": "http://loinc.org 72514-3",
+        "value": "1",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Body Weight",
+        "stop": null,
+        "code": "http://loinc.org 29463-7",
+        "value": "83.4 kg",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Body mass index (BMI) [Ratio]",
+        "stop": null,
+        "code": "http://loinc.org 39156-5",
+        "value": "28.91 kg/m2",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Heart rate",
+        "stop": null,
+        "code": "http://loinc.org 8867-4",
+        "value": "92 /min",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Respiratory rate",
+        "stop": null,
+        "code": "http://loinc.org 9279-1",
+        "value": "13 /min",
+        "panel": ""
+      },
+      {
+        "category": "immunization",
+        "start": "2018-08-20T22:20:00+00:00",
+        "description": "Influenza, split virus, trivalent, PF",
+        "stop": null,
+        "code": "http://hl7.org/fhir/sid/cvx 140",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2018-08-20T23:15:35+00:00",
+        "description": "Full-time employment (finding)",
+        "stop": "2025-06-09T23:17:20+00:00",
+        "code": "http://snomed.info/sct 160903007",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2018-08-20T23:15:35+00:00",
+        "description": "Stress (finding)",
+        "stop": "2025-06-09T23:17:20+00:00",
+        "code": "http://snomed.info/sct 73595000",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2018-08-20T23:15:35+00:00",
+        "description": "Screening for domestic abuse (procedure)",
+        "stop": "2018-08-20T23:44:55+00:00",
+        "code": "http://snomed.info/sct 866148006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "survey",
+        "start": "2018-08-20T23:44:55+00:00",
+        "description": "Total score [HARK]",
+        "stop": null,
+        "code": "http://loinc.org 76504-0",
+        "value": "4",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2018-08-20T23:44:55+00:00",
+        "description": "Depression screening (procedure)",
+        "stop": "2018-08-20T23:56:42+00:00",
+        "code": "http://snomed.info/sct 171207006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2018-08-20T23:56:42+00:00",
+        "description": "Depression screening (procedure)",
+        "stop": "2018-08-21T00:20:47+00:00",
+        "code": "http://snomed.info/sct 171207006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "survey",
+        "start": "2018-08-21T00:20:47+00:00",
+        "description": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]",
+        "stop": null,
+        "code": "http://loinc.org 55758-7",
+        "value": "0",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2018-08-21T00:20:47+00:00",
+        "description": "Assessment of substance use (procedure)",
+        "stop": "2018-08-21T00:34:39+00:00",
+        "code": "http://snomed.info/sct 428211000124100",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2018-08-21T00:34:39+00:00",
+        "description": "Assessment using Alcohol Use Disorders Identification Test - Consumption (procedure)",
+        "stop": "2018-08-21T00:54:46+00:00",
+        "code": "http://snomed.info/sct 763302001",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "survey",
+        "start": "2018-08-21T00:54:46+00:00",
+        "description": "Total score [AUDIT-C]",
+        "stop": null,
+        "code": "http://loinc.org 75626-2",
+        "value": "1",
+        "panel": ""
+      },
+      {
+        "category": "medication",
+        "start": "2019-02-19T23:08:45+00:00",
+        "description": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]",
+        "stop": "2020-02-14T23:08:45+00:00",
+        "code": "http://www.nlm.nih.gov/research/umls/rxnorm 751905",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2019-02-19T23:08:45+00:00",
+        "description": "Consultation for treatment (procedure)",
+        "stop": "2019-02-19T23:23:45+00:00",
+        "code": "http://snomed.info/sct 698314001",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2019-04-22T06:20:00+00:00",
+        "description": "Acute viral pharyngitis (disorder)",
+        "stop": "2019-05-06T05:20:00+00:00",
+        "code": "http://snomed.info/sct 195662009",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2019-04-22T06:20:00+00:00",
+        "description": "Encounter for symptom (procedure)",
+        "stop": "2019-04-22T06:35:00+00:00",
+        "code": "http://snomed.info/sct 185345009",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2019-04-22T06:20:00+00:00",
+        "description": "Body temperature",
+        "stop": null,
+        "code": "http://loinc.org 8310-5",
+        "value": "37.26288888524392 Cel",
+        "panel": ""
+      },
+      {
+        "category": "medication",
+        "start": "2020-02-14T23:08:45+00:00",
+        "description": "1 ML medroxyprogesterone acetate 150 MG/ML Injection",
+        "stop": "2021-02-08T23:26:53+00:00",
+        "code": "http://www.nlm.nih.gov/research/umls/rxnorm 1000126",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2020-02-14T23:08:45+00:00",
+        "description": "Intramuscular injection (procedure)",
+        "stop": "2020-02-14T23:26:53+00:00",
+        "code": "http://snomed.info/sct 76601001",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2020-02-14T23:08:45+00:00",
+        "description": "Consultation for treatment (procedure)",
+        "stop": "2020-02-14T23:26:53+00:00",
+        "code": "http://snomed.info/sct 698314001",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "medication",
+        "start": "2021-02-08T23:26:53+00:00",
+        "description": "levonorgestrel 0.000729 MG/HR Intrauterine System [Kyleena]",
+        "stop": "2022-02-07T17:36:43+00:00",
+        "code": "http://www.nlm.nih.gov/research/umls/rxnorm 1856546",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2021-02-08T23:26:53+00:00",
+        "description": "Consultation for treatment (procedure)",
+        "stop": "2021-02-08T23:41:53+00:00",
+        "code": "http://snomed.info/sct 698314001",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2021-02-12T16:26:53+00:00",
+        "description": "Insertion of intrauterine contraceptive device (procedure)",
+        "stop": "2021-02-12T17:36:43+00:00",
+        "code": "http://snomed.info/sct 65200003",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2021-02-12T16:26:53+00:00",
+        "description": "Patient encounter procedure (procedure)",
+        "stop": "2021-02-12T17:36:43+00:00",
+        "code": "http://snomed.info/sct 308335008",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Glucose [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 2339-0",
+        "value": "92.31 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Urea nitrogen [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 6299-2",
+        "value": "11.81 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Creatinine [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 38483-4",
+        "value": "0.94 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Calcium [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 49765-1",
+        "value": "8.52 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Sodium [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 2947-0",
+        "value": "143.02 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Potassium [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 6298-4",
+        "value": "4.41 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Chloride [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 2069-3",
+        "value": "108.9 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Carbon dioxide, total [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 20565-8",
+        "value": "23.82 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Leukocytes [#/volume] in Blood by Automated count",
+        "stop": null,
+        "code": "http://loinc.org 6690-2",
+        "value": "8.041422664996993 10*3/uL",
+        "panel": "CBC panel - Blood by Automated count"
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Erythrocytes [#/volume] in Blood by Automated count",
+        "stop": null,
+        "code": "http://loinc.org 789-8",
+        "value": "4.037320793789928 10*6/uL",
+        "panel": "CBC panel - Blood by Automated count"
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Hemoglobin [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 718-7",
+        "value": "16.950368800704823 g/dL",
+        "panel": "CBC panel - Blood by Automated count"
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Hematocrit [Volume Fraction] of Blood by Automated count",
+        "stop": null,
+        "code": "http://loinc.org 4544-3",
+        "value": "48.96772736029203 %",
+        "panel": "CBC panel - Blood by Automated count"
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+        "stop": null,
+        "code": "http://loinc.org 787-2",
+        "value": "80.38001188531096 fL",
+        "panel": "CBC panel - Blood by Automated count"
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "MCH [Entitic mass] by Automated count",
+        "stop": null,
+        "code": "http://loinc.org 785-6",
+        "value": "29.48026818869721 pg",
+        "panel": "CBC panel - Blood by Automated count"
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+        "stop": null,
+        "code": "http://loinc.org 786-4",
+        "value": "33.2699206675033 g/dL",
+        "panel": "CBC panel - Blood by Automated count"
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Erythrocyte [DistWidth] in Blood by Automated count",
+        "stop": null,
+        "code": "http://loinc.org 788-0",
+        "value": "41.0637816430262 fL",
+        "panel": "CBC panel - Blood by Automated count"
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Platelets [#/volume] in Blood by Automated count",
+        "stop": null,
+        "code": "http://loinc.org 777-3",
+        "value": "238.32569210160358 10*3/uL",
+        "panel": "CBC panel - Blood by Automated count"
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Platelet distribution width [Entitic volume] in Blood by Automated count",
+        "stop": null,
+        "code": "http://loinc.org 32207-3",
+        "value": "10.28763385468039 fL",
+        "panel": "CBC panel - Blood by Automated count"
+      },
+      {
+        "category": "lab",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Platelet [Entitic mean volume] in Blood by Automated count",
+        "stop": null,
+        "code": "http://loinc.org 32623-1",
+        "value": "10.445604171376793 fL",
+        "panel": "CBC panel - Blood by Automated count"
+      },
+      {
+        "category": "procedure",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Medication reconciliation (procedure)",
+        "stop": "2021-05-31T22:35:00+00:00",
+        "code": "http://snomed.info/sct 430193006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Assessment of health and social care needs (procedure)",
+        "stop": "2021-05-31T23:01:23+00:00",
+        "code": "http://snomed.info/sct 710824005",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "General examination of patient (procedure)",
+        "stop": "2021-05-31T23:01:23+00:00",
+        "code": "http://snomed.info/sct 162673000",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Body Height",
+        "stop": null,
+        "code": "http://loinc.org 8302-2",
+        "value": "169.8 cm",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+        "stop": null,
+        "code": "http://loinc.org 72514-3",
+        "value": "2",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Body Weight",
+        "stop": null,
+        "code": "http://loinc.org 29463-7",
+        "value": "79.5 kg",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Body mass index (BMI) [Ratio]",
+        "stop": null,
+        "code": "http://loinc.org 39156-5",
+        "value": "27.57 kg/m2",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Heart rate",
+        "stop": null,
+        "code": "http://loinc.org 8867-4",
+        "value": "69 /min",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Respiratory rate",
+        "stop": null,
+        "code": "http://loinc.org 9279-1",
+        "value": "13 /min",
+        "panel": ""
+      },
+      {
+        "category": "immunization",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Influenza, split virus, trivalent, PF",
+        "stop": null,
+        "code": "http://hl7.org/fhir/sid/cvx 140",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "immunization",
+        "start": "2021-05-31T22:20:00+00:00",
+        "description": "Hep A, adult",
+        "stop": null,
+        "code": "http://hl7.org/fhir/sid/cvx 52",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2021-05-31T23:01:23+00:00",
+        "description": "Assessment of anxiety (procedure)",
+        "stop": "2021-05-31T23:20:58+00:00",
+        "code": "http://snomed.info/sct 710841007",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "survey",
+        "start": "2021-05-31T23:20:58+00:00",
+        "description": "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]",
+        "stop": null,
+        "code": "http://loinc.org 70274-6",
+        "value": "2",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2021-05-31T23:20:58+00:00",
+        "description": "Depression screening (procedure)",
+        "stop": "2021-05-31T23:32:21+00:00",
+        "code": "http://snomed.info/sct 171207006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2021-05-31T23:32:21+00:00",
+        "description": "Depression screening (procedure)",
+        "stop": "2021-06-01T00:01:45+00:00",
+        "code": "http://snomed.info/sct 171207006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "survey",
+        "start": "2021-06-01T00:01:45+00:00",
+        "description": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]",
+        "stop": null,
+        "code": "http://loinc.org 55758-7",
+        "value": "0",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2021-06-01T00:01:45+00:00",
+        "description": "Assessment of substance use (procedure)",
+        "stop": "2021-06-01T00:13:02+00:00",
+        "code": "http://snomed.info/sct 428211000124100",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2021-06-01T00:13:02+00:00",
+        "description": "Assessment using Alcohol Use Disorders Identification Test - Consumption (procedure)",
+        "stop": "2021-06-01T00:40:40+00:00",
+        "code": "http://snomed.info/sct 763302001",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "survey",
+        "start": "2021-06-01T00:40:40+00:00",
+        "description": "Total score [AUDIT-C]",
+        "stop": null,
+        "code": "http://loinc.org 75626-2",
+        "value": "0",
+        "panel": ""
+      },
+      {
+        "category": "medication",
+        "start": "2022-02-07T17:36:43+00:00",
+        "description": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]",
+        "stop": "2023-02-02T17:36:43+00:00",
+        "code": "http://www.nlm.nih.gov/research/umls/rxnorm 751905",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2022-02-07T17:36:43+00:00",
+        "description": "Consultation for treatment (procedure)",
+        "stop": "2022-02-07T17:51:43+00:00",
+        "code": "http://snomed.info/sct 698314001",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2022-03-28T22:20:00+00:00",
+        "description": "Removal of subcutaneous contraceptive (procedure)",
+        "stop": "2022-03-28T22:56:23+00:00",
+        "code": "http://snomed.info/sct 301807007",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2022-03-28T22:20:00+00:00",
+        "description": "Patient encounter procedure (procedure)",
+        "stop": "2022-03-28T23:22:07+00:00",
+        "code": "http://snomed.info/sct 308335008",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2022-03-28T22:56:23+00:00",
+        "description": "Implantation of subcutaneous contraceptive (procedure)",
+        "stop": "2022-03-28T23:22:07+00:00",
+        "code": "http://snomed.info/sct 169553002",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "lab",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Glucose [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 2339-0",
+        "value": "74.06 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Urea nitrogen [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 6299-2",
+        "value": "19.98 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Creatinine [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 38483-4",
+        "value": "0.96 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Calcium [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 49765-1",
+        "value": "8.59 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Sodium [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 2947-0",
+        "value": "139.72 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Potassium [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 6298-4",
+        "value": "4.84 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Chloride [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 2069-3",
+        "value": "103.73 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Carbon dioxide, total [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 20565-8",
+        "value": "28.47 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Cholesterol [Mass/volume] in Serum or Plasma",
+        "stop": null,
+        "code": "http://loinc.org 2093-3",
+        "value": "220.33 mg/dL",
+        "panel": "Lipid panel with direct LDL - Serum or Plasma"
+      },
+      {
+        "category": "lab",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Triglyceride [Mass/volume] in Serum or Plasma",
+        "stop": null,
+        "code": "http://loinc.org 2571-8",
+        "value": "130.91 mg/dL",
+        "panel": "Lipid panel with direct LDL - Serum or Plasma"
+      },
+      {
+        "category": "lab",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay",
+        "stop": null,
+        "code": "http://loinc.org 18262-6",
+        "value": "139.87 mg/dL",
+        "panel": "Lipid panel with direct LDL - Serum or Plasma"
+      },
+      {
+        "category": "lab",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Cholesterol in HDL [Mass/volume] in Serum or Plasma",
+        "stop": null,
+        "code": "http://loinc.org 2085-9",
+        "value": "54.28 mg/dL",
+        "panel": "Lipid panel with direct LDL - Serum or Plasma"
+      },
+      {
+        "category": "condition",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Medication review due (situation)",
+        "stop": null,
+        "code": "http://snomed.info/sct 314529007",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Assessment of health and social care needs (procedure)",
+        "stop": "2023-06-05T23:12:14+00:00",
+        "code": "http://snomed.info/sct 710824005",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "General examination of patient (procedure)",
+        "stop": "2023-06-05T23:12:14+00:00",
+        "code": "http://snomed.info/sct 162673000",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Body Height",
+        "stop": null,
+        "code": "http://loinc.org 8302-2",
+        "value": "169.8 cm",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+        "stop": null,
+        "code": "http://loinc.org 72514-3",
+        "value": "2",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Body Weight",
+        "stop": null,
+        "code": "http://loinc.org 29463-7",
+        "value": "83.2 kg",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Body mass index (BMI) [Ratio]",
+        "stop": null,
+        "code": "http://loinc.org 39156-5",
+        "value": "28.87 kg/m2",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Heart rate",
+        "stop": null,
+        "code": "http://loinc.org 8867-4",
+        "value": "78 /min",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Respiratory rate",
+        "stop": null,
+        "code": "http://loinc.org 9279-1",
+        "value": "13 /min",
+        "panel": ""
+      },
+      {
+        "category": "immunization",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Influenza, split virus, trivalent, PF",
+        "stop": null,
+        "code": "http://hl7.org/fhir/sid/cvx 140",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "immunization",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed",
+        "stop": null,
+        "code": "http://hl7.org/fhir/sid/cvx 113",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "immunization",
+        "start": "2023-06-05T22:20:00+00:00",
+        "description": "Hep A, adult",
+        "stop": null,
+        "code": "http://hl7.org/fhir/sid/cvx 52",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2023-06-05T23:12:14+00:00",
+        "description": "Screening for domestic abuse (procedure)",
+        "stop": "2023-06-05T23:44:38+00:00",
+        "code": "http://snomed.info/sct 866148006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "survey",
+        "start": "2023-06-05T23:44:38+00:00",
+        "description": "Total score [HARK]",
+        "stop": null,
+        "code": "http://loinc.org 76504-0",
+        "value": "0",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2023-06-05T23:44:38+00:00",
+        "description": "Depression screening (procedure)",
+        "stop": "2023-06-05T23:57:12+00:00",
+        "code": "http://snomed.info/sct 171207006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2023-06-05T23:57:12+00:00",
+        "description": "Depression screening (procedure)",
+        "stop": "2023-06-06T00:24:21+00:00",
+        "code": "http://snomed.info/sct 171207006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "survey",
+        "start": "2023-06-06T00:24:21+00:00",
+        "description": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]",
+        "stop": null,
+        "code": "http://loinc.org 55758-7",
+        "value": "1",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2023-06-06T00:24:21+00:00",
+        "description": "Assessment of substance use (procedure)",
+        "stop": "2023-06-06T00:39:09+00:00",
+        "code": "http://snomed.info/sct 428211000124100",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2023-06-06T00:39:09+00:00",
+        "description": "Assessment using Alcohol Use Disorders Identification Test - Consumption (procedure)",
+        "stop": "2023-06-06T01:07:08+00:00",
+        "code": "http://snomed.info/sct 763302001",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "survey",
+        "start": "2023-06-06T01:07:08+00:00",
+        "description": "Total score [AUDIT-C]",
+        "stop": null,
+        "code": "http://loinc.org 75626-2",
+        "value": "1",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2023-06-06T01:07:08+00:00",
+        "description": "Gingivitis (disorder)",
+        "stop": "2023-06-20T01:22:39+00:00",
+        "code": "http://snomed.info/sct 66383009",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2023-06-06T01:07:08+00:00",
+        "description": "Patient referral for dental care (procedure)",
+        "stop": "2023-06-06T01:12:08+00:00",
+        "code": "http://snomed.info/sct 103697008",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2023-06-19T22:20:00+00:00",
+        "description": "Dental consultation and report (procedure)",
+        "stop": "2023-06-19T22:49:39+00:00",
+        "code": "http://snomed.info/sct 34043003",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2023-06-19T22:20:00+00:00",
+        "description": "Encounter for check up (procedure)",
+        "stop": "2023-06-20T01:27:39+00:00",
+        "code": "http://snomed.info/sct 185349003",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2023-06-19T22:49:39+00:00",
+        "description": "Dental care (regime/therapy)",
+        "stop": "2023-06-19T23:28:37+00:00",
+        "code": "http://snomed.info/sct 225362009",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2023-06-19T23:28:37+00:00",
+        "description": "Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure)",
+        "stop": "2023-06-20T00:02:43+00:00",
+        "code": "http://snomed.info/sct 1260009003",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2023-06-20T00:02:43+00:00",
+        "description": "Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure)",
+        "stop": "2023-06-20T00:23:06+00:00",
+        "code": "http://snomed.info/sct 1260010008",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2023-06-20T00:23:06+00:00",
+        "description": "Dental plain X-ray bitewing (procedure)",
+        "stop": "2023-06-20T00:53:06+00:00",
+        "code": "http://snomed.info/sct 241046008",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2023-06-20T00:23:06+00:00",
+        "description": "Examination of gingivae (procedure)",
+        "stop": "2023-06-20T01:22:39+00:00",
+        "code": "http://snomed.info/sct 274788003",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2023-06-20T01:22:39+00:00",
+        "description": "Oral health education (procedure)",
+        "stop": "2023-06-20T01:27:39+00:00",
+        "code": "http://snomed.info/sct 243085009",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "medication",
+        "start": "2024-01-28T17:36:43+00:00",
+        "description": "{7 (ethinyl estradiol 0.01 MG Oral Tablet) / 84 (ethinyl estradiol 0.03 MG / levonorgestrel 0.15 MG Oral Tablet) } Pack [Seasonique]",
+        "stop": "2025-01-22T17:36:43+00:00",
+        "code": "http://www.nlm.nih.gov/research/umls/rxnorm 749762",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2024-01-28T17:36:43+00:00",
+        "description": "Consultation for treatment (procedure)",
+        "stop": "2024-01-28T17:51:43+00:00",
+        "code": "http://snomed.info/sct 698314001",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "lab",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "Glucose [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 2339-0",
+        "value": "95.27 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "Urea nitrogen [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 6299-2",
+        "value": "12.27 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "Creatinine [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 38483-4",
+        "value": "0.98 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "Calcium [Mass/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 49765-1",
+        "value": "9.24 mg/dL",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "Sodium [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 2947-0",
+        "value": "142.11 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "Potassium [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 6298-4",
+        "value": "4.5 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "Chloride [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 2069-3",
+        "value": "107.29 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "lab",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "Carbon dioxide, total [Moles/volume] in Blood",
+        "stop": null,
+        "code": "http://loinc.org 20565-8",
+        "value": "23.11 mmol/L",
+        "panel": "Basic metabolic panel - Blood"
+      },
+      {
+        "category": "condition",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "Body mass index 30+ - obesity (finding)",
+        "stop": null,
+        "code": "http://snomed.info/sct 162864005",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "Assessment of health and social care needs (procedure)",
+        "stop": "2025-06-09T23:17:20+00:00",
+        "code": "http://snomed.info/sct 710824005",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "General examination of patient (procedure)",
+        "stop": "2025-06-09T23:17:20+00:00",
+        "code": "http://snomed.info/sct 162673000",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "Body Height",
+        "stop": null,
+        "code": "http://loinc.org 8302-2",
+        "value": "169.8 cm",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+        "stop": null,
+        "code": "http://loinc.org 72514-3",
+        "value": "4",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "Body Weight",
+        "stop": null,
+        "code": "http://loinc.org 29463-7",
+        "value": "86.9 kg",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "Body mass index (BMI) [Ratio]",
+        "stop": null,
+        "code": "http://loinc.org 39156-5",
+        "value": "30.14 kg/m2",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "Heart rate",
+        "stop": null,
+        "code": "http://loinc.org 8867-4",
+        "value": "87 /min",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "Respiratory rate",
+        "stop": null,
+        "code": "http://loinc.org 9279-1",
+        "value": "13 /min",
+        "panel": ""
+      },
+      {
+        "category": "immunization",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "Influenza, split virus, trivalent, PF",
+        "stop": null,
+        "code": "http://hl7.org/fhir/sid/cvx 140",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "social",
+        "start": "2025-06-09T22:20:00+00:00",
+        "description": "Tobacco smoking status NHIS",
+        "stop": null,
+        "code": "",
+        "value": "Never smoked tobacco (finding)",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2025-06-09T23:17:20+00:00",
+        "description": "Part-time employment (finding)",
+        "stop": null,
+        "code": "http://snomed.info/sct 160904001",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2025-06-09T23:17:20+00:00",
+        "description": "Victim of intimate partner abuse (finding)",
+        "stop": null,
+        "code": "http://snomed.info/sct 706893006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2025-06-09T23:17:20+00:00",
+        "description": "Screening for domestic abuse (procedure)",
+        "stop": "2025-06-09T23:53:31+00:00",
+        "code": "http://snomed.info/sct 866148006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "survey",
+        "start": "2025-06-09T23:53:31+00:00",
+        "description": "Total score [HARK]",
+        "stop": null,
+        "code": "http://loinc.org 76504-0",
+        "value": "0",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2025-06-09T23:53:31+00:00",
+        "description": "Depression screening (procedure)",
+        "stop": "2025-06-10T00:08:16+00:00",
+        "code": "http://snomed.info/sct 171207006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2025-06-10T00:08:16+00:00",
+        "description": "Depression screening (procedure)",
+        "stop": "2025-06-10T00:30:59+00:00",
+        "code": "http://snomed.info/sct 171207006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "survey",
+        "start": "2025-06-10T00:30:59+00:00",
+        "description": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]",
+        "stop": null,
+        "code": "http://loinc.org 55758-7",
+        "value": "1",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2025-06-10T00:30:59+00:00",
+        "description": "Assessment of substance use (procedure)",
+        "stop": "2025-06-10T00:42:49+00:00",
+        "code": "http://snomed.info/sct 428211000124100",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2025-06-10T00:42:49+00:00",
+        "description": "Screening for drug abuse (procedure)",
+        "stop": "2025-06-10T01:12:11+00:00",
+        "code": "http://snomed.info/sct 713106006",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "survey",
+        "start": "2025-06-10T01:12:11+00:00",
+        "description": "Total score [DAST-10]",
+        "stop": null,
+        "code": "http://loinc.org 82667-7",
+        "value": "2",
+        "panel": ""
+      },
+      {
+        "category": "condition",
+        "start": "2025-10-05T13:20:00+00:00",
+        "description": "Acute viral pharyngitis (disorder)",
+        "stop": "2025-10-17T21:20:00+00:00",
+        "code": "http://snomed.info/sct 195662009",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2025-10-05T13:20:00+00:00",
+        "description": "Throat culture (procedure)",
+        "stop": "2025-10-05T13:35:00+00:00",
+        "code": "http://snomed.info/sct 117015009",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2025-10-05T13:20:00+00:00",
+        "description": "Encounter for symptom (procedure)",
+        "stop": "2025-10-05T13:35:00+00:00",
+        "code": "http://snomed.info/sct 185345009",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "vital",
+        "start": "2025-10-05T13:20:00+00:00",
+        "description": "Body temperature",
+        "stop": null,
+        "code": "http://loinc.org 8310-5",
+        "value": "37.971103473370604 Cel",
+        "panel": ""
+      },
+      {
+        "category": "medication",
+        "start": "2026-01-17T17:36:43+00:00",
+        "description": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Errin 28 Day]",
+        "stop": null,
+        "code": "http://www.nlm.nih.gov/research/umls/rxnorm 831533",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2026-01-17T17:36:43+00:00",
+        "description": "Consultation for treatment (procedure)",
+        "stop": "2026-01-17T17:51:43+00:00",
+        "code": "http://snomed.info/sct 698314001",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2026-03-30T22:20:00+00:00",
+        "description": "Removal of subcutaneous contraceptive (procedure)",
+        "stop": "2026-03-30T22:43:40+00:00",
+        "code": "http://snomed.info/sct 301807007",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "encounter",
+        "start": "2026-03-30T22:20:00+00:00",
+        "description": "Patient encounter procedure (procedure)",
+        "stop": "2026-03-30T23:20:36+00:00",
+        "code": "http://snomed.info/sct 308335008",
+        "value": "",
+        "panel": ""
+      },
+      {
+        "category": "procedure",
+        "start": "2026-03-30T22:43:40+00:00",
+        "description": "Implantation of subcutaneous contraceptive (procedure)",
+        "stop": "2026-03-30T23:20:36+00:00",
+        "code": "http://snomed.info/sct 169553002",
+        "value": "",
+        "panel": ""
+      }
+    ]
+  },
+  "episodes": [
+    {
+      "index": 1,
+      "start": "1999-07-19T22:20:00+00:00",
+      "stop": "1999-07-19T23:00:52+00:00",
+      "encounter": "General examination of patient (procedure)",
+      "setting": "primary care",
+      "age": 18,
+      "active_conditions": [],
+      "current_medications": [],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [
+        {
+          "category": "condition",
+          "start": "1999-07-19T23:00:52+00:00",
+          "description": "Received higher education (finding)",
+          "stop": null,
+          "code": "http://snomed.info/sct 224299000",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "condition",
+          "start": "1999-07-19T23:00:52+00:00",
+          "description": "Transport problem (finding)",
+          "stop": null,
+          "code": "http://snomed.info/sct 266934004",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "condition",
+          "start": "1999-07-19T23:27:27+00:00",
+          "description": "Victim of intimate partner abuse (finding)",
+          "stop": "2023-06-05T23:12:14+00:00",
+          "code": "http://snomed.info/sct 706893006",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 2,
+      "start": "2000-07-24T22:20:00+00:00",
+      "stop": "2000-07-24T23:06:22+00:00",
+      "encounter": "General examination of patient (procedure)",
+      "setting": "primary care",
+      "age": 19,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)"
+      ],
+      "current_medications": [],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [
+        {
+          "category": "condition",
+          "start": "2000-07-24T23:06:22+00:00",
+          "description": "Lack of access to transportation (finding)",
+          "stop": null,
+          "code": "http://snomed.info/sct 713458007",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 3,
+      "start": "2005-06-05T22:20:00+00:00",
+      "stop": "2005-06-05T22:35:00+00:00",
+      "encounter": "Encounter for problem (procedure)",
+      "setting": "primary care",
+      "age": 24,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)"
+      ],
+      "current_medications": [],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [
+        {
+          "category": "medication",
+          "start": "2005-06-05T22:20:00+00:00",
+          "description": "Hydrocortisone 10 MG/ML Topical Cream",
+          "stop": null,
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 106258",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 4,
+      "start": "2005-06-18T13:20:00+00:00",
+      "stop": "2005-06-18T13:48:14+00:00",
+      "encounter": "Encounter for problem (procedure)",
+      "setting": "primary care",
+      "age": 24,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream"
+      ],
+      "allergies": [
+        {
+          "category": "allergy",
+          "start": "2005-06-18T13:20:00+00:00",
+          "description": "Allergic disposition (finding)",
+          "stop": null,
+          "code": "http://snomed.info/sct 609328004",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "careplans_started": [
+        {
+          "category": "careplan",
+          "start": "2005-06-18T13:48:14+00:00",
+          "description": "Self-care interventions (procedure)",
+          "stop": null,
+          "code": "http://snomed.info/sct 384758001",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [
+        {
+          "category": "medication",
+          "start": "2005-06-18T13:48:14+00:00",
+          "description": "Fexofenadine hydrochloride 60 MG Oral Tablet",
+          "stop": null,
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 997501",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "medication",
+          "start": "2005-06-18T13:48:14+00:00",
+          "description": "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+          "stop": null,
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 1870230",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 5,
+      "start": "2006-08-07T22:20:00+00:00",
+      "stop": "2006-08-07T23:17:19+00:00",
+      "encounter": "General examination of patient (procedure)",
+      "setting": "primary care",
+      "age": 25,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [
+        {
+          "category": "condition",
+          "start": "2006-08-07T23:17:19+00:00",
+          "description": "Full-time employment (finding)",
+          "stop": "2016-12-05T23:06:40+00:00",
+          "code": "http://snomed.info/sct 160903007",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 6,
+      "start": "2012-08-13T22:20:00+00:00",
+      "stop": "2012-08-13T22:55:13+00:00",
+      "encounter": "General examination of patient (procedure)",
+      "setting": "primary care",
+      "age": 31,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Full-time employment (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [
+        {
+          "category": "condition",
+          "start": "2012-08-13T22:20:00+00:00",
+          "description": "Medication review due (situation)",
+          "stop": "2016-12-05T22:20:00+00:00",
+          "code": "http://snomed.info/sct 314529007",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 7,
+      "start": "2013-02-26T15:20:00+00:00",
+      "stop": "2013-02-26T15:35:00+00:00",
+      "encounter": "Prenatal visit (regime/therapy)",
+      "setting": "maternity",
+      "age": 31,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Full-time employment (finding)",
+        "Medication review due (situation)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [
+        {
+          "category": "condition",
+          "start": "2013-02-26T15:20:00+00:00",
+          "description": "Past pregnancy history of miscarriage (situation)",
+          "stop": null,
+          "code": "http://snomed.info/sct 161744009",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 8,
+      "start": "2015-08-17T22:20:00+00:00",
+      "stop": "2015-08-17T22:55:15+00:00",
+      "encounter": "General examination of patient (procedure)",
+      "setting": "primary care",
+      "age": 34,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Full-time employment (finding)",
+        "Medication review due (situation)",
+        "Past pregnancy history of miscarriage (situation)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [
+        {
+          "category": "careplan",
+          "start": "2015-08-17T22:20:00+00:00",
+          "description": "Diabetes self management plan (record artifact)",
+          "stop": null,
+          "code": "http://snomed.info/sct 735985000",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [
+        {
+          "category": "condition",
+          "start": "2015-08-17T22:20:00+00:00",
+          "description": "Prediabetes (finding)",
+          "stop": null,
+          "code": "http://snomed.info/sct 714628002",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "condition",
+          "start": "2015-08-17T22:20:00+00:00",
+          "description": "Anemia (disorder)",
+          "stop": null,
+          "code": "http://snomed.info/sct 271737000",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "condition",
+          "start": "2015-08-17T22:55:15+00:00",
+          "description": "Limited social contact (finding)",
+          "stop": null,
+          "code": "http://snomed.info/sct 423315002",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "condition",
+          "start": "2015-08-17T22:55:15+00:00",
+          "description": "Reports of violence in the environment (finding)",
+          "stop": "2016-12-05T23:06:40+00:00",
+          "code": "http://snomed.info/sct 424393004",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 9,
+      "start": "2016-03-06T22:45:08+00:00",
+      "stop": "2016-03-06T23:00:08+00:00",
+      "encounter": "Consultation for treatment (procedure)",
+      "setting": "primary care",
+      "age": 34,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Full-time employment (finding)",
+        "Medication review due (situation)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Reports of violence in the environment (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [
+        {
+          "category": "medication",
+          "start": "2016-03-06T22:45:08+00:00",
+          "description": "1 ML medroxyPROGESTERone acetate 150 MG/ML Injection",
+          "stop": "2017-03-01T22:56:41+00:00",
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 1000126",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 10,
+      "start": "2016-12-05T22:20:00+00:00",
+      "stop": "2016-12-05T23:06:40+00:00",
+      "encounter": "Encounter for check up (procedure)",
+      "setting": "primary care",
+      "age": 35,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Full-time employment (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Reports of violence in the environment (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+        "1 ML medroxyPROGESTERone acetate 150 MG/ML Injection"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [
+        {
+          "category": "immunization",
+          "start": "2016-12-05T22:20:00+00:00",
+          "description": "Influenza, split virus, trivalent, PF",
+          "stop": null,
+          "code": "http://hl7.org/fhir/sid/cvx 140",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "labs": [
+        {
+          "category": "lab",
+          "start": "2016-12-05T22:20:00+00:00",
+          "description": "Glucose [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 2339-0",
+          "value": "65.63 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2016-12-05T22:20:00+00:00",
+          "description": "Urea nitrogen [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 6299-2",
+          "value": "19.64 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2016-12-05T22:20:00+00:00",
+          "description": "Creatinine [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 38483-4",
+          "value": "1.54 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2016-12-05T22:20:00+00:00",
+          "description": "Calcium [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 49765-1",
+          "value": "9.76 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2016-12-05T22:20:00+00:00",
+          "description": "Sodium [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 2947-0",
+          "value": "143.27 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2016-12-05T22:20:00+00:00",
+          "description": "Potassium [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 6298-4",
+          "value": "4.1 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2016-12-05T22:20:00+00:00",
+          "description": "Chloride [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 2069-3",
+          "value": "110.36 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2016-12-05T22:20:00+00:00",
+          "description": "Carbon dioxide, total [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 20565-8",
+          "value": "21.86 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        }
+      ],
+      "new_conditions": [
+        {
+          "category": "condition",
+          "start": "2016-12-05T23:06:40+00:00",
+          "description": "Unemployed (finding)",
+          "stop": "2018-08-20T23:15:35+00:00",
+          "code": "http://snomed.info/sct 73438004",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "condition",
+          "start": "2016-12-05T23:06:40+00:00",
+          "description": "Social isolation (finding)",
+          "stop": "2025-06-09T23:17:20+00:00",
+          "code": "http://snomed.info/sct 422650009",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "condition",
+          "start": "2016-12-06T00:43:47+00:00",
+          "description": "Gingivitis (disorder)",
+          "stop": "2016-12-20T01:28:01+00:00",
+          "code": "http://snomed.info/sct 66383009",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "procedures": [
+        {
+          "category": "procedure",
+          "start": "2016-12-05T22:20:00+00:00",
+          "description": "Medication reconciliation (procedure)",
+          "stop": "2016-12-05T22:35:00+00:00",
+          "code": "http://snomed.info/sct 430193006",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2016-12-05T22:20:00+00:00",
+          "description": "Assessment of health and social care needs (procedure)",
+          "stop": "2016-12-05T23:06:40+00:00",
+          "code": "http://snomed.info/sct 710824005",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2016-12-05T23:06:40+00:00",
+          "description": "Assessment of anxiety (procedure)",
+          "stop": "2016-12-05T23:27:18+00:00",
+          "code": "http://snomed.info/sct 710841007",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2016-12-05T23:27:18+00:00",
+          "description": "Depression screening (procedure)",
+          "stop": "2016-12-05T23:37:29+00:00",
+          "code": "http://snomed.info/sct 171207006",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2016-12-05T23:37:29+00:00",
+          "description": "Depression screening (procedure)",
+          "stop": "2016-12-06T00:07:15+00:00",
+          "code": "http://snomed.info/sct 171207006",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2016-12-06T00:07:15+00:00",
+          "description": "Assessment of substance use (procedure)",
+          "stop": "2016-12-06T00:20:55+00:00",
+          "code": "http://snomed.info/sct 428211000124100",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2016-12-06T00:20:55+00:00",
+          "description": "Screening for drug abuse (procedure)",
+          "stop": "2016-12-06T00:43:47+00:00",
+          "code": "http://snomed.info/sct 713106006",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2016-12-06T00:43:47+00:00",
+          "description": "Patient referral for dental care (procedure)",
+          "stop": "2016-12-06T00:54:03+00:00",
+          "code": "http://snomed.info/sct 103697008",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "resolved_conditions": [
+        {
+          "category": "condition",
+          "start": "2006-08-07T23:17:19+00:00",
+          "description": "Full-time employment (finding)",
+          "stop": "2016-12-05T23:06:40+00:00",
+          "code": "http://snomed.info/sct 160903007",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "condition",
+          "start": "2012-08-13T22:20:00+00:00",
+          "description": "Medication review due (situation)",
+          "stop": "2016-12-05T22:20:00+00:00",
+          "code": "http://snomed.info/sct 314529007",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "condition",
+          "start": "2015-08-17T22:55:15+00:00",
+          "description": "Reports of violence in the environment (finding)",
+          "stop": "2016-12-05T23:06:40+00:00",
+          "code": "http://snomed.info/sct 424393004",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [
+        {
+          "category": "survey",
+          "start": "2016-12-05T23:27:18+00:00",
+          "description": "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]",
+          "stop": null,
+          "code": "http://loinc.org 70274-6",
+          "value": "2",
+          "panel": ""
+        },
+        {
+          "category": "survey",
+          "start": "2016-12-06T00:07:15+00:00",
+          "description": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]",
+          "stop": null,
+          "code": "http://loinc.org 55758-7",
+          "value": "1",
+          "panel": ""
+        },
+        {
+          "category": "survey",
+          "start": "2016-12-06T00:43:47+00:00",
+          "description": "Total score [DAST-10]",
+          "stop": null,
+          "code": "http://loinc.org 82667-7",
+          "value": "2",
+          "panel": ""
+        }
+      ],
+      "vitals": [
+        {
+          "category": "vital",
+          "start": "2016-12-05T22:20:00+00:00",
+          "description": "Body Height",
+          "stop": null,
+          "code": "http://loinc.org 8302-2",
+          "value": "169.8 cm",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2016-12-05T22:20:00+00:00",
+          "description": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "stop": null,
+          "code": "http://loinc.org 72514-3",
+          "value": "1",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2016-12-05T22:20:00+00:00",
+          "description": "Body Weight",
+          "stop": null,
+          "code": "http://loinc.org 29463-7",
+          "value": "80.5 kg",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2016-12-05T22:20:00+00:00",
+          "description": "Body mass index (BMI) [Ratio]",
+          "stop": null,
+          "code": "http://loinc.org 39156-5",
+          "value": "27.93 kg/m2",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2016-12-05T22:20:00+00:00",
+          "description": "Heart rate",
+          "stop": null,
+          "code": "http://loinc.org 8867-4",
+          "value": "89 /min",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2016-12-05T22:20:00+00:00",
+          "description": "Respiratory rate",
+          "stop": null,
+          "code": "http://loinc.org 9279-1",
+          "value": "13 /min",
+          "panel": ""
+        }
+      ],
+      "other": []
+    },
+    {
+      "index": 11,
+      "start": "2016-12-12T22:20:00+00:00",
+      "stop": "2016-12-12T22:35:00+00:00",
+      "encounter": "Encounter for symptom (procedure)",
+      "setting": "primary care",
+      "age": 35,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Unemployed (finding)",
+        "Social isolation (finding)",
+        "Gingivitis (disorder)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+        "1 ML medroxyPROGESTERone acetate 150 MG/ML Injection"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [
+        {
+          "category": "condition",
+          "start": "2016-12-12T22:20:00+00:00",
+          "description": "Viral sinusitis (disorder)",
+          "stop": "2017-01-01T22:20:00+00:00",
+          "code": "http://snomed.info/sct 444814009",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 12,
+      "start": "2016-12-19T22:20:00+00:00",
+      "stop": "2016-12-20T02:08:08+00:00",
+      "encounter": "Encounter for check up (procedure)",
+      "setting": "primary care",
+      "age": 35,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Unemployed (finding)",
+        "Social isolation (finding)",
+        "Gingivitis (disorder)",
+        "Viral sinusitis (disorder)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+        "1 ML medroxyPROGESTERone acetate 150 MG/ML Injection"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [
+        {
+          "category": "procedure",
+          "start": "2016-12-19T22:20:00+00:00",
+          "description": "Dental consultation and report (procedure)",
+          "stop": "2016-12-19T22:48:57+00:00",
+          "code": "http://snomed.info/sct 34043003",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2016-12-19T22:48:57+00:00",
+          "description": "Dental care (regime/therapy)",
+          "stop": "2016-12-19T23:28:23+00:00",
+          "code": "http://snomed.info/sct 225362009",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2016-12-19T23:28:23+00:00",
+          "description": "Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure)",
+          "stop": "2016-12-20T00:04:12+00:00",
+          "code": "http://snomed.info/sct 1260009003",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2016-12-20T00:04:12+00:00",
+          "description": "Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure)",
+          "stop": "2016-12-20T00:42:20+00:00",
+          "code": "http://snomed.info/sct 1260010008",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2016-12-20T00:42:20+00:00",
+          "description": "Examination of gingivae (procedure)",
+          "stop": "2016-12-20T01:28:01+00:00",
+          "code": "http://snomed.info/sct 274788003",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2016-12-20T01:28:01+00:00",
+          "description": "Dental fluoride treatment (procedure)",
+          "stop": "2016-12-20T01:57:09+00:00",
+          "code": "http://snomed.info/sct 68071007",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2016-12-20T01:57:09+00:00",
+          "description": "Oral health education (procedure)",
+          "stop": "2016-12-20T02:08:08+00:00",
+          "code": "http://snomed.info/sct 243085009",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "resolved_conditions": [
+        {
+          "category": "condition",
+          "start": "2016-12-06T00:43:47+00:00",
+          "description": "Gingivitis (disorder)",
+          "stop": "2016-12-20T01:28:01+00:00",
+          "code": "http://snomed.info/sct 66383009",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "started_medications": [
+        {
+          "category": "medication",
+          "start": "2016-12-20T01:28:01+00:00",
+          "description": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "stop": "2016-12-20T01:28:01+00:00",
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 1535362",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "stopped_medications": [
+        {
+          "category": "medication",
+          "start": "2016-12-20T01:28:01+00:00",
+          "description": "sodium fluoride 0.0272 MG/MG Oral Gel",
+          "stop": "2016-12-20T01:28:01+00:00",
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 1535362",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 13,
+      "start": "2017-01-01T22:20:00+00:00",
+      "stop": null,
+      "encounter": "No encounter recorded",
+      "setting": "between visits",
+      "age": 35,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Unemployed (finding)",
+        "Social isolation (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+        "1 ML medroxyPROGESTERone acetate 150 MG/ML Injection"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [],
+      "resolved_conditions": [
+        {
+          "category": "condition",
+          "start": "2016-12-12T22:20:00+00:00",
+          "description": "Viral sinusitis (disorder)",
+          "stop": "2017-01-01T22:20:00+00:00",
+          "code": "http://snomed.info/sct 444814009",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 14,
+      "start": "2017-03-01T22:56:41+00:00",
+      "stop": "2017-03-01T23:11:41+00:00",
+      "encounter": "Consultation for treatment (procedure)",
+      "setting": "primary care",
+      "age": 35,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Unemployed (finding)",
+        "Social isolation (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [
+        {
+          "category": "procedure",
+          "start": "2017-03-01T22:56:41+00:00",
+          "description": "Intramuscular injection (procedure)",
+          "stop": "2017-03-01T23:08:45+00:00",
+          "code": "http://snomed.info/sct 76601001",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "resolved_conditions": [],
+      "started_medications": [
+        {
+          "category": "medication",
+          "start": "2017-03-01T22:56:41+00:00",
+          "description": "1 ML medroxyprogesterone acetate 150 MG/ML Injection",
+          "stop": "2018-02-24T23:08:45+00:00",
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 1000126",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "stopped_medications": [
+        {
+          "category": "medication",
+          "start": "2016-03-06T22:45:08+00:00",
+          "description": "1 ML medroxyPROGESTERone acetate 150 MG/ML Injection",
+          "stop": "2017-03-01T22:56:41+00:00",
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 1000126",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 15,
+      "start": "2018-02-24T23:08:45+00:00",
+      "stop": "2018-02-24T23:23:45+00:00",
+      "encounter": "Consultation for treatment (procedure)",
+      "setting": "primary care",
+      "age": 36,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Unemployed (finding)",
+        "Social isolation (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [
+        {
+          "category": "medication",
+          "start": "2018-02-24T23:08:45+00:00",
+          "description": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Jolivette 28 Day]",
+          "stop": "2019-02-19T23:08:45+00:00",
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 757594",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "stopped_medications": [
+        {
+          "category": "medication",
+          "start": "2017-03-01T22:56:41+00:00",
+          "description": "1 ML medroxyprogesterone acetate 150 MG/ML Injection",
+          "stop": "2018-02-24T23:08:45+00:00",
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 1000126",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 16,
+      "start": "2018-03-26T22:20:00+00:00",
+      "stop": "2018-03-26T23:10:00+00:00",
+      "encounter": "Patient encounter procedure (procedure)",
+      "setting": "primary care",
+      "age": 36,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Unemployed (finding)",
+        "Social isolation (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+        "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Jolivette 28 Day]"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [
+        {
+          "category": "procedure",
+          "start": "2018-03-26T22:20:00+00:00",
+          "description": "Removal of subcutaneous contraceptive (procedure)",
+          "stop": "2018-03-26T22:45:17+00:00",
+          "code": "http://snomed.info/sct 301807007",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2018-03-26T22:45:17+00:00",
+          "description": "Implantation of subcutaneous contraceptive (procedure)",
+          "stop": "2018-03-26T23:10:00+00:00",
+          "code": "http://snomed.info/sct 169553002",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "resolved_conditions": [],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 17,
+      "start": "2018-08-20T22:20:00+00:00",
+      "stop": "2018-08-20T23:15:35+00:00",
+      "encounter": "General examination of patient (procedure)",
+      "setting": "primary care",
+      "age": 37,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Unemployed (finding)",
+        "Social isolation (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+        "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Jolivette 28 Day]"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [
+        {
+          "category": "immunization",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Influenza, split virus, trivalent, PF",
+          "stop": null,
+          "code": "http://hl7.org/fhir/sid/cvx 140",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "labs": [
+        {
+          "category": "lab",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Glucose [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 2339-0",
+          "value": "68.76 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Urea nitrogen [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 6299-2",
+          "value": "7.81 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Creatinine [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 38483-4",
+          "value": "1.39 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Calcium [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 49765-1",
+          "value": "10.12 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Sodium [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 2947-0",
+          "value": "139.89 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Potassium [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 6298-4",
+          "value": "3.96 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Chloride [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 2069-3",
+          "value": "107.42 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Carbon dioxide, total [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 20565-8",
+          "value": "24.16 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Cholesterol [Mass/volume] in Serum or Plasma",
+          "stop": null,
+          "code": "http://loinc.org 2093-3",
+          "value": "162.57 mg/dL",
+          "panel": "Lipid panel with direct LDL - Serum or Plasma"
+        },
+        {
+          "category": "lab",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Triglyceride [Mass/volume] in Serum or Plasma",
+          "stop": null,
+          "code": "http://loinc.org 2571-8",
+          "value": "130.98 mg/dL",
+          "panel": "Lipid panel with direct LDL - Serum or Plasma"
+        },
+        {
+          "category": "lab",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay",
+          "stop": null,
+          "code": "http://loinc.org 18262-6",
+          "value": "84.29 mg/dL",
+          "panel": "Lipid panel with direct LDL - Serum or Plasma"
+        },
+        {
+          "category": "lab",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Cholesterol in HDL [Mass/volume] in Serum or Plasma",
+          "stop": null,
+          "code": "http://loinc.org 2085-9",
+          "value": "52.08 mg/dL",
+          "panel": "Lipid panel with direct LDL - Serum or Plasma"
+        }
+      ],
+      "new_conditions": [
+        {
+          "category": "condition",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Medication review due (situation)",
+          "stop": "2021-05-31T22:20:00+00:00",
+          "code": "http://snomed.info/sct 314529007",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "condition",
+          "start": "2018-08-20T23:15:35+00:00",
+          "description": "Full-time employment (finding)",
+          "stop": "2025-06-09T23:17:20+00:00",
+          "code": "http://snomed.info/sct 160903007",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "condition",
+          "start": "2018-08-20T23:15:35+00:00",
+          "description": "Stress (finding)",
+          "stop": "2025-06-09T23:17:20+00:00",
+          "code": "http://snomed.info/sct 73595000",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "procedures": [
+        {
+          "category": "procedure",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Assessment of health and social care needs (procedure)",
+          "stop": "2018-08-20T23:15:35+00:00",
+          "code": "http://snomed.info/sct 710824005",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2018-08-20T23:15:35+00:00",
+          "description": "Screening for domestic abuse (procedure)",
+          "stop": "2018-08-20T23:44:55+00:00",
+          "code": "http://snomed.info/sct 866148006",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2018-08-20T23:44:55+00:00",
+          "description": "Depression screening (procedure)",
+          "stop": "2018-08-20T23:56:42+00:00",
+          "code": "http://snomed.info/sct 171207006",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2018-08-20T23:56:42+00:00",
+          "description": "Depression screening (procedure)",
+          "stop": "2018-08-21T00:20:47+00:00",
+          "code": "http://snomed.info/sct 171207006",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2018-08-21T00:20:47+00:00",
+          "description": "Assessment of substance use (procedure)",
+          "stop": "2018-08-21T00:34:39+00:00",
+          "code": "http://snomed.info/sct 428211000124100",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2018-08-21T00:34:39+00:00",
+          "description": "Assessment using Alcohol Use Disorders Identification Test - Consumption (procedure)",
+          "stop": "2018-08-21T00:54:46+00:00",
+          "code": "http://snomed.info/sct 763302001",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "resolved_conditions": [
+        {
+          "category": "condition",
+          "start": "2016-12-05T23:06:40+00:00",
+          "description": "Unemployed (finding)",
+          "stop": "2018-08-20T23:15:35+00:00",
+          "code": "http://snomed.info/sct 73438004",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [
+        {
+          "category": "survey",
+          "start": "2018-08-20T23:44:55+00:00",
+          "description": "Total score [HARK]",
+          "stop": null,
+          "code": "http://loinc.org 76504-0",
+          "value": "4",
+          "panel": ""
+        },
+        {
+          "category": "survey",
+          "start": "2018-08-21T00:20:47+00:00",
+          "description": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]",
+          "stop": null,
+          "code": "http://loinc.org 55758-7",
+          "value": "0",
+          "panel": ""
+        },
+        {
+          "category": "survey",
+          "start": "2018-08-21T00:54:46+00:00",
+          "description": "Total score [AUDIT-C]",
+          "stop": null,
+          "code": "http://loinc.org 75626-2",
+          "value": "1",
+          "panel": ""
+        }
+      ],
+      "vitals": [
+        {
+          "category": "vital",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Body Height",
+          "stop": null,
+          "code": "http://loinc.org 8302-2",
+          "value": "169.8 cm",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "stop": null,
+          "code": "http://loinc.org 72514-3",
+          "value": "1",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Body Weight",
+          "stop": null,
+          "code": "http://loinc.org 29463-7",
+          "value": "83.4 kg",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Body mass index (BMI) [Ratio]",
+          "stop": null,
+          "code": "http://loinc.org 39156-5",
+          "value": "28.91 kg/m2",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Heart rate",
+          "stop": null,
+          "code": "http://loinc.org 8867-4",
+          "value": "92 /min",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Respiratory rate",
+          "stop": null,
+          "code": "http://loinc.org 9279-1",
+          "value": "13 /min",
+          "panel": ""
+        }
+      ],
+      "other": []
+    },
+    {
+      "index": 18,
+      "start": "2019-02-19T23:08:45+00:00",
+      "stop": "2019-02-19T23:23:45+00:00",
+      "encounter": "Consultation for treatment (procedure)",
+      "setting": "primary care",
+      "age": 37,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Social isolation (finding)",
+        "Medication review due (situation)",
+        "Full-time employment (finding)",
+        "Stress (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [
+        {
+          "category": "medication",
+          "start": "2019-02-19T23:08:45+00:00",
+          "description": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]",
+          "stop": "2020-02-14T23:08:45+00:00",
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 751905",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "stopped_medications": [
+        {
+          "category": "medication",
+          "start": "2018-02-24T23:08:45+00:00",
+          "description": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Jolivette 28 Day]",
+          "stop": "2019-02-19T23:08:45+00:00",
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 757594",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 19,
+      "start": "2019-04-22T06:20:00+00:00",
+      "stop": "2019-04-22T06:35:00+00:00",
+      "encounter": "Encounter for symptom (procedure)",
+      "setting": "primary care",
+      "age": 37,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Social isolation (finding)",
+        "Medication review due (situation)",
+        "Full-time employment (finding)",
+        "Stress (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+        "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [
+        {
+          "category": "condition",
+          "start": "2019-04-22T06:20:00+00:00",
+          "description": "Acute viral pharyngitis (disorder)",
+          "stop": "2019-05-06T05:20:00+00:00",
+          "code": "http://snomed.info/sct 195662009",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [
+        {
+          "category": "vital",
+          "start": "2019-04-22T06:20:00+00:00",
+          "description": "Body temperature",
+          "stop": null,
+          "code": "http://loinc.org 8310-5",
+          "value": "37.26288888524392 Cel",
+          "panel": ""
+        }
+      ],
+      "other": []
+    },
+    {
+      "index": 20,
+      "start": "2019-05-06T05:20:00+00:00",
+      "stop": null,
+      "encounter": "No encounter recorded",
+      "setting": "between visits",
+      "age": 37,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Social isolation (finding)",
+        "Medication review due (situation)",
+        "Full-time employment (finding)",
+        "Stress (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+        "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [],
+      "resolved_conditions": [
+        {
+          "category": "condition",
+          "start": "2019-04-22T06:20:00+00:00",
+          "description": "Acute viral pharyngitis (disorder)",
+          "stop": "2019-05-06T05:20:00+00:00",
+          "code": "http://snomed.info/sct 195662009",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 21,
+      "start": "2020-02-14T23:08:45+00:00",
+      "stop": "2020-02-14T23:26:53+00:00",
+      "encounter": "Consultation for treatment (procedure)",
+      "setting": "primary care",
+      "age": 38,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Social isolation (finding)",
+        "Medication review due (situation)",
+        "Full-time employment (finding)",
+        "Stress (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [
+        {
+          "category": "procedure",
+          "start": "2020-02-14T23:08:45+00:00",
+          "description": "Intramuscular injection (procedure)",
+          "stop": "2020-02-14T23:26:53+00:00",
+          "code": "http://snomed.info/sct 76601001",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "resolved_conditions": [],
+      "started_medications": [
+        {
+          "category": "medication",
+          "start": "2020-02-14T23:08:45+00:00",
+          "description": "1 ML medroxyprogesterone acetate 150 MG/ML Injection",
+          "stop": "2021-02-08T23:26:53+00:00",
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 1000126",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "stopped_medications": [
+        {
+          "category": "medication",
+          "start": "2019-02-19T23:08:45+00:00",
+          "description": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]",
+          "stop": "2020-02-14T23:08:45+00:00",
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 751905",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 22,
+      "start": "2021-02-08T23:26:53+00:00",
+      "stop": "2021-02-08T23:41:53+00:00",
+      "encounter": "Consultation for treatment (procedure)",
+      "setting": "primary care",
+      "age": 39,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Social isolation (finding)",
+        "Medication review due (situation)",
+        "Full-time employment (finding)",
+        "Stress (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [
+        {
+          "category": "medication",
+          "start": "2021-02-08T23:26:53+00:00",
+          "description": "levonorgestrel 0.000729 MG/HR Intrauterine System [Kyleena]",
+          "stop": "2022-02-07T17:36:43+00:00",
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 1856546",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "stopped_medications": [
+        {
+          "category": "medication",
+          "start": "2020-02-14T23:08:45+00:00",
+          "description": "1 ML medroxyprogesterone acetate 150 MG/ML Injection",
+          "stop": "2021-02-08T23:26:53+00:00",
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 1000126",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 23,
+      "start": "2021-02-12T16:26:53+00:00",
+      "stop": "2021-02-12T17:36:43+00:00",
+      "encounter": "Patient encounter procedure (procedure)",
+      "setting": "primary care",
+      "age": 39,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Social isolation (finding)",
+        "Medication review due (situation)",
+        "Full-time employment (finding)",
+        "Stress (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+        "levonorgestrel 0.000729 MG/HR Intrauterine System [Kyleena]"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [
+        {
+          "category": "procedure",
+          "start": "2021-02-12T16:26:53+00:00",
+          "description": "Insertion of intrauterine contraceptive device (procedure)",
+          "stop": "2021-02-12T17:36:43+00:00",
+          "code": "http://snomed.info/sct 65200003",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "resolved_conditions": [],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 24,
+      "start": "2021-05-31T22:20:00+00:00",
+      "stop": "2021-05-31T23:01:23+00:00",
+      "encounter": "General examination of patient (procedure)",
+      "setting": "primary care",
+      "age": 40,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Social isolation (finding)",
+        "Full-time employment (finding)",
+        "Stress (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+        "levonorgestrel 0.000729 MG/HR Intrauterine System [Kyleena]"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [
+        {
+          "category": "immunization",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Influenza, split virus, trivalent, PF",
+          "stop": null,
+          "code": "http://hl7.org/fhir/sid/cvx 140",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "immunization",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Hep A, adult",
+          "stop": null,
+          "code": "http://hl7.org/fhir/sid/cvx 52",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "labs": [
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Glucose [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 2339-0",
+          "value": "92.31 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Urea nitrogen [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 6299-2",
+          "value": "11.81 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Creatinine [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 38483-4",
+          "value": "0.94 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Calcium [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 49765-1",
+          "value": "8.52 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Sodium [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 2947-0",
+          "value": "143.02 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Potassium [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 6298-4",
+          "value": "4.41 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Chloride [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 2069-3",
+          "value": "108.9 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Carbon dioxide, total [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 20565-8",
+          "value": "23.82 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Leukocytes [#/volume] in Blood by Automated count",
+          "stop": null,
+          "code": "http://loinc.org 6690-2",
+          "value": "8.041422664996993 10*3/uL",
+          "panel": "CBC panel - Blood by Automated count"
+        },
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Erythrocytes [#/volume] in Blood by Automated count",
+          "stop": null,
+          "code": "http://loinc.org 789-8",
+          "value": "4.037320793789928 10*6/uL",
+          "panel": "CBC panel - Blood by Automated count"
+        },
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Hemoglobin [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 718-7",
+          "value": "16.950368800704823 g/dL",
+          "panel": "CBC panel - Blood by Automated count"
+        },
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Hematocrit [Volume Fraction] of Blood by Automated count",
+          "stop": null,
+          "code": "http://loinc.org 4544-3",
+          "value": "48.96772736029203 %",
+          "panel": "CBC panel - Blood by Automated count"
+        },
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+          "stop": null,
+          "code": "http://loinc.org 787-2",
+          "value": "80.38001188531096 fL",
+          "panel": "CBC panel - Blood by Automated count"
+        },
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "MCH [Entitic mass] by Automated count",
+          "stop": null,
+          "code": "http://loinc.org 785-6",
+          "value": "29.48026818869721 pg",
+          "panel": "CBC panel - Blood by Automated count"
+        },
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+          "stop": null,
+          "code": "http://loinc.org 786-4",
+          "value": "33.2699206675033 g/dL",
+          "panel": "CBC panel - Blood by Automated count"
+        },
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Erythrocyte [DistWidth] in Blood by Automated count",
+          "stop": null,
+          "code": "http://loinc.org 788-0",
+          "value": "41.0637816430262 fL",
+          "panel": "CBC panel - Blood by Automated count"
+        },
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Platelets [#/volume] in Blood by Automated count",
+          "stop": null,
+          "code": "http://loinc.org 777-3",
+          "value": "238.32569210160358 10*3/uL",
+          "panel": "CBC panel - Blood by Automated count"
+        },
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Platelet distribution width [Entitic volume] in Blood by Automated count",
+          "stop": null,
+          "code": "http://loinc.org 32207-3",
+          "value": "10.28763385468039 fL",
+          "panel": "CBC panel - Blood by Automated count"
+        },
+        {
+          "category": "lab",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Platelet [Entitic mean volume] in Blood by Automated count",
+          "stop": null,
+          "code": "http://loinc.org 32623-1",
+          "value": "10.445604171376793 fL",
+          "panel": "CBC panel - Blood by Automated count"
+        }
+      ],
+      "new_conditions": [],
+      "procedures": [
+        {
+          "category": "procedure",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Medication reconciliation (procedure)",
+          "stop": "2021-05-31T22:35:00+00:00",
+          "code": "http://snomed.info/sct 430193006",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Assessment of health and social care needs (procedure)",
+          "stop": "2021-05-31T23:01:23+00:00",
+          "code": "http://snomed.info/sct 710824005",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2021-05-31T23:01:23+00:00",
+          "description": "Assessment of anxiety (procedure)",
+          "stop": "2021-05-31T23:20:58+00:00",
+          "code": "http://snomed.info/sct 710841007",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2021-05-31T23:20:58+00:00",
+          "description": "Depression screening (procedure)",
+          "stop": "2021-05-31T23:32:21+00:00",
+          "code": "http://snomed.info/sct 171207006",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2021-05-31T23:32:21+00:00",
+          "description": "Depression screening (procedure)",
+          "stop": "2021-06-01T00:01:45+00:00",
+          "code": "http://snomed.info/sct 171207006",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2021-06-01T00:01:45+00:00",
+          "description": "Assessment of substance use (procedure)",
+          "stop": "2021-06-01T00:13:02+00:00",
+          "code": "http://snomed.info/sct 428211000124100",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2021-06-01T00:13:02+00:00",
+          "description": "Assessment using Alcohol Use Disorders Identification Test - Consumption (procedure)",
+          "stop": "2021-06-01T00:40:40+00:00",
+          "code": "http://snomed.info/sct 763302001",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "resolved_conditions": [
+        {
+          "category": "condition",
+          "start": "2018-08-20T22:20:00+00:00",
+          "description": "Medication review due (situation)",
+          "stop": "2021-05-31T22:20:00+00:00",
+          "code": "http://snomed.info/sct 314529007",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [
+        {
+          "category": "survey",
+          "start": "2021-05-31T23:20:58+00:00",
+          "description": "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]",
+          "stop": null,
+          "code": "http://loinc.org 70274-6",
+          "value": "2",
+          "panel": ""
+        },
+        {
+          "category": "survey",
+          "start": "2021-06-01T00:01:45+00:00",
+          "description": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]",
+          "stop": null,
+          "code": "http://loinc.org 55758-7",
+          "value": "0",
+          "panel": ""
+        },
+        {
+          "category": "survey",
+          "start": "2021-06-01T00:40:40+00:00",
+          "description": "Total score [AUDIT-C]",
+          "stop": null,
+          "code": "http://loinc.org 75626-2",
+          "value": "0",
+          "panel": ""
+        }
+      ],
+      "vitals": [
+        {
+          "category": "vital",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Body Height",
+          "stop": null,
+          "code": "http://loinc.org 8302-2",
+          "value": "169.8 cm",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "stop": null,
+          "code": "http://loinc.org 72514-3",
+          "value": "2",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Body Weight",
+          "stop": null,
+          "code": "http://loinc.org 29463-7",
+          "value": "79.5 kg",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Body mass index (BMI) [Ratio]",
+          "stop": null,
+          "code": "http://loinc.org 39156-5",
+          "value": "27.57 kg/m2",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Heart rate",
+          "stop": null,
+          "code": "http://loinc.org 8867-4",
+          "value": "69 /min",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2021-05-31T22:20:00+00:00",
+          "description": "Respiratory rate",
+          "stop": null,
+          "code": "http://loinc.org 9279-1",
+          "value": "13 /min",
+          "panel": ""
+        }
+      ],
+      "other": []
+    },
+    {
+      "index": 25,
+      "start": "2022-02-07T17:36:43+00:00",
+      "stop": "2022-02-07T17:51:43+00:00",
+      "encounter": "Consultation for treatment (procedure)",
+      "setting": "primary care",
+      "age": 40,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Social isolation (finding)",
+        "Full-time employment (finding)",
+        "Stress (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [
+        {
+          "category": "medication",
+          "start": "2022-02-07T17:36:43+00:00",
+          "description": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]",
+          "stop": "2023-02-02T17:36:43+00:00",
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 751905",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "stopped_medications": [
+        {
+          "category": "medication",
+          "start": "2021-02-08T23:26:53+00:00",
+          "description": "levonorgestrel 0.000729 MG/HR Intrauterine System [Kyleena]",
+          "stop": "2022-02-07T17:36:43+00:00",
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 1856546",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 26,
+      "start": "2022-03-28T22:20:00+00:00",
+      "stop": "2022-03-28T23:22:07+00:00",
+      "encounter": "Patient encounter procedure (procedure)",
+      "setting": "primary care",
+      "age": 40,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Social isolation (finding)",
+        "Full-time employment (finding)",
+        "Stress (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+        "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [
+        {
+          "category": "procedure",
+          "start": "2022-03-28T22:20:00+00:00",
+          "description": "Removal of subcutaneous contraceptive (procedure)",
+          "stop": "2022-03-28T22:56:23+00:00",
+          "code": "http://snomed.info/sct 301807007",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2022-03-28T22:56:23+00:00",
+          "description": "Implantation of subcutaneous contraceptive (procedure)",
+          "stop": "2022-03-28T23:22:07+00:00",
+          "code": "http://snomed.info/sct 169553002",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "resolved_conditions": [],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 27,
+      "start": "2023-02-02T17:36:43+00:00",
+      "stop": null,
+      "encounter": "No encounter recorded",
+      "setting": "between visits",
+      "age": 41,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Social isolation (finding)",
+        "Full-time employment (finding)",
+        "Stress (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [],
+      "stopped_medications": [
+        {
+          "category": "medication",
+          "start": "2022-02-07T17:36:43+00:00",
+          "description": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]",
+          "stop": "2023-02-02T17:36:43+00:00",
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 751905",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 28,
+      "start": "2023-06-05T22:20:00+00:00",
+      "stop": "2023-06-05T23:12:14+00:00",
+      "encounter": "General examination of patient (procedure)",
+      "setting": "primary care",
+      "age": 42,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Victim of intimate partner abuse (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Social isolation (finding)",
+        "Full-time employment (finding)",
+        "Stress (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [
+        {
+          "category": "immunization",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Influenza, split virus, trivalent, PF",
+          "stop": null,
+          "code": "http://hl7.org/fhir/sid/cvx 140",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "immunization",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed",
+          "stop": null,
+          "code": "http://hl7.org/fhir/sid/cvx 113",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "immunization",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Hep A, adult",
+          "stop": null,
+          "code": "http://hl7.org/fhir/sid/cvx 52",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "labs": [
+        {
+          "category": "lab",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Glucose [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 2339-0",
+          "value": "74.06 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Urea nitrogen [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 6299-2",
+          "value": "19.98 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Creatinine [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 38483-4",
+          "value": "0.96 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Calcium [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 49765-1",
+          "value": "8.59 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Sodium [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 2947-0",
+          "value": "139.72 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Potassium [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 6298-4",
+          "value": "4.84 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Chloride [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 2069-3",
+          "value": "103.73 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Carbon dioxide, total [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 20565-8",
+          "value": "28.47 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Cholesterol [Mass/volume] in Serum or Plasma",
+          "stop": null,
+          "code": "http://loinc.org 2093-3",
+          "value": "220.33 mg/dL",
+          "panel": "Lipid panel with direct LDL - Serum or Plasma"
+        },
+        {
+          "category": "lab",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Triglyceride [Mass/volume] in Serum or Plasma",
+          "stop": null,
+          "code": "http://loinc.org 2571-8",
+          "value": "130.91 mg/dL",
+          "panel": "Lipid panel with direct LDL - Serum or Plasma"
+        },
+        {
+          "category": "lab",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay",
+          "stop": null,
+          "code": "http://loinc.org 18262-6",
+          "value": "139.87 mg/dL",
+          "panel": "Lipid panel with direct LDL - Serum or Plasma"
+        },
+        {
+          "category": "lab",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Cholesterol in HDL [Mass/volume] in Serum or Plasma",
+          "stop": null,
+          "code": "http://loinc.org 2085-9",
+          "value": "54.28 mg/dL",
+          "panel": "Lipid panel with direct LDL - Serum or Plasma"
+        }
+      ],
+      "new_conditions": [
+        {
+          "category": "condition",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Medication review due (situation)",
+          "stop": null,
+          "code": "http://snomed.info/sct 314529007",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "condition",
+          "start": "2023-06-06T01:07:08+00:00",
+          "description": "Gingivitis (disorder)",
+          "stop": "2023-06-20T01:22:39+00:00",
+          "code": "http://snomed.info/sct 66383009",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "procedures": [
+        {
+          "category": "procedure",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Assessment of health and social care needs (procedure)",
+          "stop": "2023-06-05T23:12:14+00:00",
+          "code": "http://snomed.info/sct 710824005",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2023-06-05T23:12:14+00:00",
+          "description": "Screening for domestic abuse (procedure)",
+          "stop": "2023-06-05T23:44:38+00:00",
+          "code": "http://snomed.info/sct 866148006",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2023-06-05T23:44:38+00:00",
+          "description": "Depression screening (procedure)",
+          "stop": "2023-06-05T23:57:12+00:00",
+          "code": "http://snomed.info/sct 171207006",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2023-06-05T23:57:12+00:00",
+          "description": "Depression screening (procedure)",
+          "stop": "2023-06-06T00:24:21+00:00",
+          "code": "http://snomed.info/sct 171207006",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2023-06-06T00:24:21+00:00",
+          "description": "Assessment of substance use (procedure)",
+          "stop": "2023-06-06T00:39:09+00:00",
+          "code": "http://snomed.info/sct 428211000124100",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2023-06-06T00:39:09+00:00",
+          "description": "Assessment using Alcohol Use Disorders Identification Test - Consumption (procedure)",
+          "stop": "2023-06-06T01:07:08+00:00",
+          "code": "http://snomed.info/sct 763302001",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2023-06-06T01:07:08+00:00",
+          "description": "Patient referral for dental care (procedure)",
+          "stop": "2023-06-06T01:12:08+00:00",
+          "code": "http://snomed.info/sct 103697008",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "resolved_conditions": [
+        {
+          "category": "condition",
+          "start": "1999-07-19T23:27:27+00:00",
+          "description": "Victim of intimate partner abuse (finding)",
+          "stop": "2023-06-05T23:12:14+00:00",
+          "code": "http://snomed.info/sct 706893006",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [
+        {
+          "category": "survey",
+          "start": "2023-06-05T23:44:38+00:00",
+          "description": "Total score [HARK]",
+          "stop": null,
+          "code": "http://loinc.org 76504-0",
+          "value": "0",
+          "panel": ""
+        },
+        {
+          "category": "survey",
+          "start": "2023-06-06T00:24:21+00:00",
+          "description": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]",
+          "stop": null,
+          "code": "http://loinc.org 55758-7",
+          "value": "1",
+          "panel": ""
+        },
+        {
+          "category": "survey",
+          "start": "2023-06-06T01:07:08+00:00",
+          "description": "Total score [AUDIT-C]",
+          "stop": null,
+          "code": "http://loinc.org 75626-2",
+          "value": "1",
+          "panel": ""
+        }
+      ],
+      "vitals": [
+        {
+          "category": "vital",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Body Height",
+          "stop": null,
+          "code": "http://loinc.org 8302-2",
+          "value": "169.8 cm",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "stop": null,
+          "code": "http://loinc.org 72514-3",
+          "value": "2",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Body Weight",
+          "stop": null,
+          "code": "http://loinc.org 29463-7",
+          "value": "83.2 kg",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Body mass index (BMI) [Ratio]",
+          "stop": null,
+          "code": "http://loinc.org 39156-5",
+          "value": "28.87 kg/m2",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Heart rate",
+          "stop": null,
+          "code": "http://loinc.org 8867-4",
+          "value": "78 /min",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2023-06-05T22:20:00+00:00",
+          "description": "Respiratory rate",
+          "stop": null,
+          "code": "http://loinc.org 9279-1",
+          "value": "13 /min",
+          "panel": ""
+        }
+      ],
+      "other": []
+    },
+    {
+      "index": 29,
+      "start": "2023-06-19T22:20:00+00:00",
+      "stop": "2023-06-20T01:27:39+00:00",
+      "encounter": "Encounter for check up (procedure)",
+      "setting": "primary care",
+      "age": 42,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Social isolation (finding)",
+        "Full-time employment (finding)",
+        "Stress (finding)",
+        "Medication review due (situation)",
+        "Gingivitis (disorder)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [
+        {
+          "category": "procedure",
+          "start": "2023-06-19T22:20:00+00:00",
+          "description": "Dental consultation and report (procedure)",
+          "stop": "2023-06-19T22:49:39+00:00",
+          "code": "http://snomed.info/sct 34043003",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2023-06-19T22:49:39+00:00",
+          "description": "Dental care (regime/therapy)",
+          "stop": "2023-06-19T23:28:37+00:00",
+          "code": "http://snomed.info/sct 225362009",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2023-06-19T23:28:37+00:00",
+          "description": "Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure)",
+          "stop": "2023-06-20T00:02:43+00:00",
+          "code": "http://snomed.info/sct 1260009003",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2023-06-20T00:02:43+00:00",
+          "description": "Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure)",
+          "stop": "2023-06-20T00:23:06+00:00",
+          "code": "http://snomed.info/sct 1260010008",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2023-06-20T00:23:06+00:00",
+          "description": "Dental plain X-ray bitewing (procedure)",
+          "stop": "2023-06-20T00:53:06+00:00",
+          "code": "http://snomed.info/sct 241046008",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2023-06-20T00:23:06+00:00",
+          "description": "Examination of gingivae (procedure)",
+          "stop": "2023-06-20T01:22:39+00:00",
+          "code": "http://snomed.info/sct 274788003",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2023-06-20T01:22:39+00:00",
+          "description": "Oral health education (procedure)",
+          "stop": "2023-06-20T01:27:39+00:00",
+          "code": "http://snomed.info/sct 243085009",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "resolved_conditions": [
+        {
+          "category": "condition",
+          "start": "2023-06-06T01:07:08+00:00",
+          "description": "Gingivitis (disorder)",
+          "stop": "2023-06-20T01:22:39+00:00",
+          "code": "http://snomed.info/sct 66383009",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 30,
+      "start": "2024-01-28T17:36:43+00:00",
+      "stop": "2024-01-28T17:51:43+00:00",
+      "encounter": "Consultation for treatment (procedure)",
+      "setting": "primary care",
+      "age": 42,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Social isolation (finding)",
+        "Full-time employment (finding)",
+        "Stress (finding)",
+        "Medication review due (situation)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [
+        {
+          "category": "medication",
+          "start": "2024-01-28T17:36:43+00:00",
+          "description": "{7 (ethinyl estradiol 0.01 MG Oral Tablet) / 84 (ethinyl estradiol 0.03 MG / levonorgestrel 0.15 MG Oral Tablet) } Pack [Seasonique]",
+          "stop": "2025-01-22T17:36:43+00:00",
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 749762",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 31,
+      "start": "2025-01-22T17:36:43+00:00",
+      "stop": null,
+      "encounter": "No encounter recorded",
+      "setting": "between visits",
+      "age": 43,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Social isolation (finding)",
+        "Full-time employment (finding)",
+        "Stress (finding)",
+        "Medication review due (situation)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [],
+      "stopped_medications": [
+        {
+          "category": "medication",
+          "start": "2024-01-28T17:36:43+00:00",
+          "description": "{7 (ethinyl estradiol 0.01 MG Oral Tablet) / 84 (ethinyl estradiol 0.03 MG / levonorgestrel 0.15 MG Oral Tablet) } Pack [Seasonique]",
+          "stop": "2025-01-22T17:36:43+00:00",
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 749762",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 32,
+      "start": "2025-06-09T22:20:00+00:00",
+      "stop": "2025-06-09T23:17:20+00:00",
+      "encounter": "General examination of patient (procedure)",
+      "setting": "primary care",
+      "age": 44,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Social isolation (finding)",
+        "Full-time employment (finding)",
+        "Stress (finding)",
+        "Medication review due (situation)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [
+        {
+          "category": "immunization",
+          "start": "2025-06-09T22:20:00+00:00",
+          "description": "Influenza, split virus, trivalent, PF",
+          "stop": null,
+          "code": "http://hl7.org/fhir/sid/cvx 140",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "labs": [
+        {
+          "category": "lab",
+          "start": "2025-06-09T22:20:00+00:00",
+          "description": "Glucose [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 2339-0",
+          "value": "95.27 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2025-06-09T22:20:00+00:00",
+          "description": "Urea nitrogen [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 6299-2",
+          "value": "12.27 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2025-06-09T22:20:00+00:00",
+          "description": "Creatinine [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 38483-4",
+          "value": "0.98 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2025-06-09T22:20:00+00:00",
+          "description": "Calcium [Mass/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 49765-1",
+          "value": "9.24 mg/dL",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2025-06-09T22:20:00+00:00",
+          "description": "Sodium [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 2947-0",
+          "value": "142.11 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2025-06-09T22:20:00+00:00",
+          "description": "Potassium [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 6298-4",
+          "value": "4.5 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2025-06-09T22:20:00+00:00",
+          "description": "Chloride [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 2069-3",
+          "value": "107.29 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        },
+        {
+          "category": "lab",
+          "start": "2025-06-09T22:20:00+00:00",
+          "description": "Carbon dioxide, total [Moles/volume] in Blood",
+          "stop": null,
+          "code": "http://loinc.org 20565-8",
+          "value": "23.11 mmol/L",
+          "panel": "Basic metabolic panel - Blood"
+        }
+      ],
+      "new_conditions": [
+        {
+          "category": "condition",
+          "start": "2025-06-09T22:20:00+00:00",
+          "description": "Body mass index 30+ - obesity (finding)",
+          "stop": null,
+          "code": "http://snomed.info/sct 162864005",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "condition",
+          "start": "2025-06-09T23:17:20+00:00",
+          "description": "Part-time employment (finding)",
+          "stop": null,
+          "code": "http://snomed.info/sct 160904001",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "condition",
+          "start": "2025-06-09T23:17:20+00:00",
+          "description": "Victim of intimate partner abuse (finding)",
+          "stop": null,
+          "code": "http://snomed.info/sct 706893006",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "procedures": [
+        {
+          "category": "procedure",
+          "start": "2025-06-09T22:20:00+00:00",
+          "description": "Assessment of health and social care needs (procedure)",
+          "stop": "2025-06-09T23:17:20+00:00",
+          "code": "http://snomed.info/sct 710824005",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2025-06-09T23:17:20+00:00",
+          "description": "Screening for domestic abuse (procedure)",
+          "stop": "2025-06-09T23:53:31+00:00",
+          "code": "http://snomed.info/sct 866148006",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2025-06-09T23:53:31+00:00",
+          "description": "Depression screening (procedure)",
+          "stop": "2025-06-10T00:08:16+00:00",
+          "code": "http://snomed.info/sct 171207006",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2025-06-10T00:08:16+00:00",
+          "description": "Depression screening (procedure)",
+          "stop": "2025-06-10T00:30:59+00:00",
+          "code": "http://snomed.info/sct 171207006",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2025-06-10T00:30:59+00:00",
+          "description": "Assessment of substance use (procedure)",
+          "stop": "2025-06-10T00:42:49+00:00",
+          "code": "http://snomed.info/sct 428211000124100",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2025-06-10T00:42:49+00:00",
+          "description": "Screening for drug abuse (procedure)",
+          "stop": "2025-06-10T01:12:11+00:00",
+          "code": "http://snomed.info/sct 713106006",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "resolved_conditions": [
+        {
+          "category": "condition",
+          "start": "2016-12-05T23:06:40+00:00",
+          "description": "Social isolation (finding)",
+          "stop": "2025-06-09T23:17:20+00:00",
+          "code": "http://snomed.info/sct 422650009",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "condition",
+          "start": "2018-08-20T23:15:35+00:00",
+          "description": "Full-time employment (finding)",
+          "stop": "2025-06-09T23:17:20+00:00",
+          "code": "http://snomed.info/sct 160903007",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "condition",
+          "start": "2018-08-20T23:15:35+00:00",
+          "description": "Stress (finding)",
+          "stop": "2025-06-09T23:17:20+00:00",
+          "code": "http://snomed.info/sct 73595000",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [
+        {
+          "category": "survey",
+          "start": "2025-06-09T23:53:31+00:00",
+          "description": "Total score [HARK]",
+          "stop": null,
+          "code": "http://loinc.org 76504-0",
+          "value": "0",
+          "panel": ""
+        },
+        {
+          "category": "survey",
+          "start": "2025-06-10T00:30:59+00:00",
+          "description": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]",
+          "stop": null,
+          "code": "http://loinc.org 55758-7",
+          "value": "1",
+          "panel": ""
+        },
+        {
+          "category": "survey",
+          "start": "2025-06-10T01:12:11+00:00",
+          "description": "Total score [DAST-10]",
+          "stop": null,
+          "code": "http://loinc.org 82667-7",
+          "value": "2",
+          "panel": ""
+        }
+      ],
+      "vitals": [
+        {
+          "category": "vital",
+          "start": "2025-06-09T22:20:00+00:00",
+          "description": "Body Height",
+          "stop": null,
+          "code": "http://loinc.org 8302-2",
+          "value": "169.8 cm",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2025-06-09T22:20:00+00:00",
+          "description": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "stop": null,
+          "code": "http://loinc.org 72514-3",
+          "value": "4",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2025-06-09T22:20:00+00:00",
+          "description": "Body Weight",
+          "stop": null,
+          "code": "http://loinc.org 29463-7",
+          "value": "86.9 kg",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2025-06-09T22:20:00+00:00",
+          "description": "Body mass index (BMI) [Ratio]",
+          "stop": null,
+          "code": "http://loinc.org 39156-5",
+          "value": "30.14 kg/m2",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2025-06-09T22:20:00+00:00",
+          "description": "Heart rate",
+          "stop": null,
+          "code": "http://loinc.org 8867-4",
+          "value": "87 /min",
+          "panel": ""
+        },
+        {
+          "category": "vital",
+          "start": "2025-06-09T22:20:00+00:00",
+          "description": "Respiratory rate",
+          "stop": null,
+          "code": "http://loinc.org 9279-1",
+          "value": "13 /min",
+          "panel": ""
+        }
+      ],
+      "other": [
+        {
+          "category": "social",
+          "start": "2025-06-09T22:20:00+00:00",
+          "description": "Tobacco smoking status NHIS",
+          "stop": null,
+          "code": "",
+          "value": "Never smoked tobacco (finding)",
+          "panel": ""
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "start": "2025-10-05T13:20:00+00:00",
+      "stop": "2025-10-05T13:35:00+00:00",
+      "encounter": "Encounter for symptom (procedure)",
+      "setting": "primary care",
+      "age": 44,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Medication review due (situation)",
+        "Body mass index 30+ - obesity (finding)",
+        "Part-time employment (finding)",
+        "Victim of intimate partner abuse (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [
+        {
+          "category": "condition",
+          "start": "2025-10-05T13:20:00+00:00",
+          "description": "Acute viral pharyngitis (disorder)",
+          "stop": "2025-10-17T21:20:00+00:00",
+          "code": "http://snomed.info/sct 195662009",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "procedures": [
+        {
+          "category": "procedure",
+          "start": "2025-10-05T13:20:00+00:00",
+          "description": "Throat culture (procedure)",
+          "stop": "2025-10-05T13:35:00+00:00",
+          "code": "http://snomed.info/sct 117015009",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "resolved_conditions": [],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [
+        {
+          "category": "vital",
+          "start": "2025-10-05T13:20:00+00:00",
+          "description": "Body temperature",
+          "stop": null,
+          "code": "http://loinc.org 8310-5",
+          "value": "37.971103473370604 Cel",
+          "panel": ""
+        }
+      ],
+      "other": []
+    },
+    {
+      "index": 34,
+      "start": "2025-10-17T21:20:00+00:00",
+      "stop": null,
+      "encounter": "No encounter recorded",
+      "setting": "between visits",
+      "age": 44,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Medication review due (situation)",
+        "Body mass index 30+ - obesity (finding)",
+        "Part-time employment (finding)",
+        "Victim of intimate partner abuse (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [],
+      "resolved_conditions": [
+        {
+          "category": "condition",
+          "start": "2025-10-05T13:20:00+00:00",
+          "description": "Acute viral pharyngitis (disorder)",
+          "stop": "2025-10-17T21:20:00+00:00",
+          "code": "http://snomed.info/sct 195662009",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 35,
+      "start": "2026-01-17T17:36:43+00:00",
+      "stop": "2026-01-17T17:51:43+00:00",
+      "encounter": "Consultation for treatment (procedure)",
+      "setting": "primary care",
+      "age": 44,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Medication review due (situation)",
+        "Body mass index 30+ - obesity (finding)",
+        "Part-time employment (finding)",
+        "Victim of intimate partner abuse (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [],
+      "resolved_conditions": [],
+      "started_medications": [
+        {
+          "category": "medication",
+          "start": "2026-01-17T17:36:43+00:00",
+          "description": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Errin 28 Day]",
+          "stop": null,
+          "code": "http://www.nlm.nih.gov/research/umls/rxnorm 831533",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    },
+    {
+      "index": 36,
+      "start": "2026-03-30T22:20:00+00:00",
+      "stop": "2026-03-30T23:20:36+00:00",
+      "encounter": "Patient encounter procedure (procedure)",
+      "setting": "primary care",
+      "age": 44,
+      "active_conditions": [
+        "Received higher education (finding)",
+        "Transport problem (finding)",
+        "Lack of access to transportation (finding)",
+        "Past pregnancy history of miscarriage (situation)",
+        "Prediabetes (finding)",
+        "Anemia (disorder)",
+        "Limited social contact (finding)",
+        "Medication review due (situation)",
+        "Body mass index 30+ - obesity (finding)",
+        "Part-time employment (finding)",
+        "Victim of intimate partner abuse (finding)"
+      ],
+      "current_medications": [
+        "Hydrocortisone 10 MG/ML Topical Cream",
+        "Fexofenadine hydrochloride 60 MG Oral Tablet",
+        "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+        "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Errin 28 Day]"
+      ],
+      "allergies": [],
+      "careplans_started": [],
+      "careplans_stopped": [],
+      "immunizations": [],
+      "labs": [],
+      "new_conditions": [],
+      "procedures": [
+        {
+          "category": "procedure",
+          "start": "2026-03-30T22:20:00+00:00",
+          "description": "Removal of subcutaneous contraceptive (procedure)",
+          "stop": "2026-03-30T22:43:40+00:00",
+          "code": "http://snomed.info/sct 301807007",
+          "value": "",
+          "panel": ""
+        },
+        {
+          "category": "procedure",
+          "start": "2026-03-30T22:43:40+00:00",
+          "description": "Implantation of subcutaneous contraceptive (procedure)",
+          "stop": "2026-03-30T23:20:36+00:00",
+          "code": "http://snomed.info/sct 169553002",
+          "value": "",
+          "panel": ""
+        }
+      ],
+      "resolved_conditions": [],
+      "started_medications": [],
+      "stopped_medications": [],
+      "surveys": [],
+      "vitals": [],
+      "other": []
+    }
+  ]
+}

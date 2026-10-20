@@ -1,0 +1,897 @@
+Patient: Alexandra Mosciski (female, born 25 May 1981)
+Race/ethnicity: white, non-hispanic
+Lives in: Waltham, Massachusetts
+Primary care practice: Weston Primary Care, Pc (Weston)
+
+EPISODE 1: 19 July 1999 (age 18)
+Encounter: General examination of patient (procedure)  [setting: primary care]
+NEW conditions / findings recorded:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+
+EPISODE 2: 24 July 2000 (age 19)
+Encounter: General examination of patient (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+NEW conditions / findings recorded:
+  - Lack of access to transportation (finding)
+
+EPISODE 3: 05 June 2005 (age 24)
+Encounter: Encounter for problem (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+Medications STARTED:
+  - Hydrocortisone 10 MG/ML Topical Cream
+
+EPISODE 4: 18 June 2005 (age 24)
+Encounter: Encounter for problem (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+Allergies recorded:
+  - Allergic disposition (finding)
+Medications STARTED:
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+Care plans started:
+  - Self-care interventions (procedure)
+
+EPISODE 5: 07 August 2006 (age 25)
+Encounter: General examination of patient (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+NEW conditions / findings recorded:
+  - Full-time employment (finding)
+
+EPISODE 6: 13 August 2012 (age 31)
+Encounter: General examination of patient (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Full-time employment (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+NEW conditions / findings recorded:
+  - Medication review due (situation)
+
+EPISODE 7: 26 February 2013 (age 31)
+Encounter: Prenatal visit (regime/therapy)  [setting: maternity]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Full-time employment (finding)
+  - Medication review due (situation)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+NEW conditions / findings recorded:
+  - Past pregnancy history of miscarriage (situation)
+
+EPISODE 8: 17 August 2015 (age 34)
+Encounter: General examination of patient (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Full-time employment (finding)
+  - Medication review due (situation)
+  - Past pregnancy history of miscarriage (situation)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+NEW conditions / findings recorded:
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Reports of violence in the environment (finding)
+Care plans started:
+  - Diabetes self management plan (record artifact)
+
+EPISODE 9: 06 March 2016 (age 34)
+Encounter: Consultation for treatment (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Full-time employment (finding)
+  - Medication review due (situation)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Reports of violence in the environment (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+Medications STARTED:
+  - 1 ML medroxyPROGESTERone acetate 150 MG/ML Injection
+
+EPISODE 10: 05 December 2016 (age 35)
+Encounter: Encounter for check up (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Full-time employment (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Reports of violence in the environment (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+  - 1 ML medroxyPROGESTERone acetate 150 MG/ML Injection
+NEW conditions / findings recorded:
+  - Unemployed (finding)
+  - Social isolation (finding)
+  - Gingivitis (disorder)
+Conditions / findings RESOLVED:
+  - Full-time employment (finding)
+  - Medication review due (situation)
+  - Reports of violence in the environment (finding)
+Procedures / assessments:
+  - Medication reconciliation (procedure)
+  - Assessment of health and social care needs (procedure)
+  - Assessment of anxiety (procedure)
+  - Depression screening (procedure)
+  - Assessment of substance use (procedure)
+  - Screening for drug abuse (procedure)
+  - Patient referral for dental care (procedure)
+Vital signs:
+  - Body Height: 169.8 cm
+  - Pain severity - 0-10 verbal numeric rating - Reported: 1
+  - Body Weight: 80.5 kg
+  - Body mass index (BMI): 27.9 kg/m2
+  - Heart rate: 89 /min
+  - Respiratory rate: 13 /min
+Questionnaire scores:
+  - GAD-7 total score: 2
+  - PHQ-2 total score: 1
+  - DAST-10 total score: 2
+Lab results:
+  - Basic metabolic panel - Blood: Glucose 65.6 mg/dL; Urea nitrogen 19.6 mg/dL; Creatinine 1.5 mg/dL; Calcium 9.8 mg/dL; Sodium 143.3 mmol/L; Potassium 4.1 mmol/L; Chloride 110.4 mmol/L; Carbon dioxide, total 21.9 mmol/L
+Immunizations given:
+  - Influenza, split virus, trivalent, PF
+
+EPISODE 11: 12 December 2016 (age 35)
+Encounter: Encounter for symptom (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Unemployed (finding)
+  - Social isolation (finding)
+  - Gingivitis (disorder)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+  - 1 ML medroxyPROGESTERone acetate 150 MG/ML Injection
+NEW conditions / findings recorded:
+  - Viral sinusitis (disorder)
+
+EPISODE 12: 19 December 2016 (age 35)
+Encounter: Encounter for check up (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Unemployed (finding)
+  - Social isolation (finding)
+  - Gingivitis (disorder)
+  - Viral sinusitis (disorder)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+  - 1 ML medroxyPROGESTERone acetate 150 MG/ML Injection
+Conditions / findings RESOLVED:
+  - Gingivitis (disorder)
+Medications STARTED:
+  - sodium fluoride 0.0272 MG/MG Oral Gel
+Medications STOPPED:
+  - sodium fluoride 0.0272 MG/MG Oral Gel
+Procedures / assessments:
+  - Dental consultation and report (procedure)
+  - Dental care (regime/therapy)
+  - Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure)
+  - Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure)
+  - Examination of gingivae (procedure)
+  - Dental fluoride treatment (procedure)
+  - Oral health education (procedure)
+
+EPISODE 13: 01 January 2017 (age 35)
+Encounter: No encounter recorded  [setting: between visits]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Unemployed (finding)
+  - Social isolation (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+  - 1 ML medroxyPROGESTERone acetate 150 MG/ML Injection
+Conditions / findings RESOLVED:
+  - Viral sinusitis (disorder)
+
+EPISODE 14: 01 March 2017 (age 35)
+Encounter: Consultation for treatment (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Unemployed (finding)
+  - Social isolation (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+Medications STARTED:
+  - 1 ML medroxyprogesterone acetate 150 MG/ML Injection
+Medications STOPPED:
+  - 1 ML medroxyPROGESTERone acetate 150 MG/ML Injection
+Procedures / assessments:
+  - Intramuscular injection (procedure)
+
+EPISODE 15: 24 February 2018 (age 36)
+Encounter: Consultation for treatment (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Unemployed (finding)
+  - Social isolation (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+Medications STARTED:
+  - {28 (norethindrone 0.35 MG Oral Tablet) } Pack [Jolivette 28 Day]
+Medications STOPPED:
+  - 1 ML medroxyprogesterone acetate 150 MG/ML Injection
+
+EPISODE 16: 26 March 2018 (age 36)
+Encounter: Patient encounter procedure (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Unemployed (finding)
+  - Social isolation (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+  - {28 (norethindrone 0.35 MG Oral Tablet) } Pack [Jolivette 28 Day]
+Procedures / assessments:
+  - Removal of subcutaneous contraceptive (procedure)
+  - Implantation of subcutaneous contraceptive (procedure)
+
+EPISODE 17: 20 August 2018 (age 37)
+Encounter: General examination of patient (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Unemployed (finding)
+  - Social isolation (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+  - {28 (norethindrone 0.35 MG Oral Tablet) } Pack [Jolivette 28 Day]
+NEW conditions / findings recorded:
+  - Medication review due (situation)
+  - Full-time employment (finding)
+  - Stress (finding)
+Conditions / findings RESOLVED:
+  - Unemployed (finding)
+Procedures / assessments:
+  - Assessment of health and social care needs (procedure)
+  - Screening for domestic abuse (procedure)
+  - Depression screening (procedure)
+  - Assessment of substance use (procedure)
+  - Assessment using Alcohol Use Disorders Identification Test - Consumption (procedure)
+Vital signs:
+  - Body Height: 169.8 cm
+  - Pain severity - 0-10 verbal numeric rating - Reported: 1
+  - Body Weight: 83.4 kg
+  - Body mass index (BMI): 28.9 kg/m2
+  - Heart rate: 92 /min
+  - Respiratory rate: 13 /min
+Questionnaire scores:
+  - HARK total score: 4
+  - PHQ-2 total score: 0
+  - AUDIT-C total score: 1
+Lab results:
+  - Basic metabolic panel - Blood: Glucose 68.8 mg/dL; Urea nitrogen 7.8 mg/dL; Creatinine 1.4 mg/dL; Calcium 10.1 mg/dL; Sodium 139.9 mmol/L; Potassium 4.0 mmol/L; Chloride 107.4 mmol/L; Carbon dioxide, total 24.2 mmol/L
+  - Lipid panel with direct LDL - Serum or Plasma: Cholesterol 162.6 mg/dL; Triglyceride 131.0 mg/dL; Cholesterol in LDL 84.3 mg/dL; Cholesterol in HDL 52.1 mg/dL
+Immunizations given:
+  - Influenza, split virus, trivalent, PF
+
+EPISODE 18: 19 February 2019 (age 37)
+Encounter: Consultation for treatment (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Social isolation (finding)
+  - Medication review due (situation)
+  - Full-time employment (finding)
+  - Stress (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+Medications STARTED:
+  - {7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]
+Medications STOPPED:
+  - {28 (norethindrone 0.35 MG Oral Tablet) } Pack [Jolivette 28 Day]
+
+EPISODE 19: 22 April 2019 (age 37)
+Encounter: Encounter for symptom (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Social isolation (finding)
+  - Medication review due (situation)
+  - Full-time employment (finding)
+  - Stress (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+  - {7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]
+NEW conditions / findings recorded:
+  - Acute viral pharyngitis (disorder)
+Vital signs:
+  - Body temperature: 37.3 Cel
+
+EPISODE 20: 06 May 2019 (age 37)
+Encounter: No encounter recorded  [setting: between visits]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Social isolation (finding)
+  - Medication review due (situation)
+  - Full-time employment (finding)
+  - Stress (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+  - {7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]
+Conditions / findings RESOLVED:
+  - Acute viral pharyngitis (disorder)
+
+EPISODE 21: 14 February 2020 (age 38)
+Encounter: Consultation for treatment (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Social isolation (finding)
+  - Medication review due (situation)
+  - Full-time employment (finding)
+  - Stress (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+Medications STARTED:
+  - 1 ML medroxyprogesterone acetate 150 MG/ML Injection
+Medications STOPPED:
+  - {7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]
+Procedures / assessments:
+  - Intramuscular injection (procedure)
+
+EPISODE 22: 08 February 2021 (age 39)
+Encounter: Consultation for treatment (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Social isolation (finding)
+  - Medication review due (situation)
+  - Full-time employment (finding)
+  - Stress (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+Medications STARTED:
+  - levonorgestrel 0.000729 MG/HR Intrauterine System [Kyleena]
+Medications STOPPED:
+  - 1 ML medroxyprogesterone acetate 150 MG/ML Injection
+
+EPISODE 23: 12 February 2021 (age 39)
+Encounter: Patient encounter procedure (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Social isolation (finding)
+  - Medication review due (situation)
+  - Full-time employment (finding)
+  - Stress (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+  - levonorgestrel 0.000729 MG/HR Intrauterine System [Kyleena]
+Procedures / assessments:
+  - Insertion of intrauterine contraceptive device (procedure)
+
+EPISODE 24: 31 May 2021 (age 40)
+Encounter: General examination of patient (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Social isolation (finding)
+  - Full-time employment (finding)
+  - Stress (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+  - levonorgestrel 0.000729 MG/HR Intrauterine System [Kyleena]
+Conditions / findings RESOLVED:
+  - Medication review due (situation)
+Procedures / assessments:
+  - Medication reconciliation (procedure)
+  - Assessment of health and social care needs (procedure)
+  - Assessment of anxiety (procedure)
+  - Depression screening (procedure)
+  - Assessment of substance use (procedure)
+  - Assessment using Alcohol Use Disorders Identification Test - Consumption (procedure)
+Vital signs:
+  - Body Height: 169.8 cm
+  - Pain severity - 0-10 verbal numeric rating - Reported: 2
+  - Body Weight: 79.5 kg
+  - Body mass index (BMI): 27.6 kg/m2
+  - Heart rate: 69 /min
+  - Respiratory rate: 13 /min
+Questionnaire scores:
+  - GAD-7 total score: 2
+  - PHQ-2 total score: 0
+  - AUDIT-C total score: 0
+Lab results:
+  - Basic metabolic panel - Blood: Glucose 92.3 mg/dL; Urea nitrogen 11.8 mg/dL; Creatinine 0.9 mg/dL; Calcium 8.5 mg/dL; Sodium 143.0 mmol/L; Potassium 4.4 mmol/L; Chloride 108.9 mmol/L; Carbon dioxide, total 23.8 mmol/L
+  - CBC panel - Blood by Automated count: Leukocytes 8.0 10*3/uL; Erythrocytes 4.0 10*6/uL; Hemoglobin 17.0 g/dL; Hematocrit 49.0 %; MCV mean volume 80.4 fL; MCH 29.5 pg; MCHC 33.3 g/dL; Erythrocyte distribution width 41.1 fL; Platelets 238.3 10*3/uL; Platelet distribution width 10.3 fL; Platelet mean volume 10.4 fL
+Immunizations given:
+  - Influenza, split virus, trivalent, PF
+  - Hep A, adult
+
+EPISODE 25: 07 February 2022 (age 40)
+Encounter: Consultation for treatment (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Social isolation (finding)
+  - Full-time employment (finding)
+  - Stress (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+Medications STARTED:
+  - {7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]
+Medications STOPPED:
+  - levonorgestrel 0.000729 MG/HR Intrauterine System [Kyleena]
+
+EPISODE 26: 28 March 2022 (age 40)
+Encounter: Patient encounter procedure (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Social isolation (finding)
+  - Full-time employment (finding)
+  - Stress (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+  - {7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]
+Procedures / assessments:
+  - Removal of subcutaneous contraceptive (procedure)
+  - Implantation of subcutaneous contraceptive (procedure)
+
+EPISODE 27: 02 February 2023 (age 41)
+Encounter: No encounter recorded  [setting: between visits]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Social isolation (finding)
+  - Full-time employment (finding)
+  - Stress (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+Medications STOPPED:
+  - {7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]
+
+EPISODE 28: 05 June 2023 (age 42)
+Encounter: General examination of patient (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Victim of intimate partner abuse (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Social isolation (finding)
+  - Full-time employment (finding)
+  - Stress (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+NEW conditions / findings recorded:
+  - Medication review due (situation)
+  - Gingivitis (disorder)
+Conditions / findings RESOLVED:
+  - Victim of intimate partner abuse (finding)
+Procedures / assessments:
+  - Assessment of health and social care needs (procedure)
+  - Screening for domestic abuse (procedure)
+  - Depression screening (procedure)
+  - Assessment of substance use (procedure)
+  - Assessment using Alcohol Use Disorders Identification Test - Consumption (procedure)
+  - Patient referral for dental care (procedure)
+Vital signs:
+  - Body Height: 169.8 cm
+  - Pain severity - 0-10 verbal numeric rating - Reported: 2
+  - Body Weight: 83.2 kg
+  - Body mass index (BMI): 28.9 kg/m2
+  - Heart rate: 78 /min
+  - Respiratory rate: 13 /min
+Questionnaire scores:
+  - HARK total score: 0
+  - PHQ-2 total score: 1
+  - AUDIT-C total score: 1
+Lab results:
+  - Basic metabolic panel - Blood: Glucose 74.1 mg/dL; Urea nitrogen 20.0 mg/dL; Creatinine 1.0 mg/dL; Calcium 8.6 mg/dL; Sodium 139.7 mmol/L; Potassium 4.8 mmol/L; Chloride 103.7 mmol/L; Carbon dioxide, total 28.5 mmol/L
+  - Lipid panel with direct LDL - Serum or Plasma: Cholesterol 220.3 mg/dL; Triglyceride 130.9 mg/dL; Cholesterol in LDL 139.9 mg/dL; Cholesterol in HDL 54.3 mg/dL
+Immunizations given:
+  - Influenza, split virus, trivalent, PF
+  - Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed
+  - Hep A, adult
+
+EPISODE 29: 19 June 2023 (age 42)
+Encounter: Encounter for check up (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Social isolation (finding)
+  - Full-time employment (finding)
+  - Stress (finding)
+  - Medication review due (situation)
+  - Gingivitis (disorder)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+Conditions / findings RESOLVED:
+  - Gingivitis (disorder)
+Procedures / assessments:
+  - Dental consultation and report (procedure)
+  - Dental care (regime/therapy)
+  - Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure)
+  - Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure)
+  - Dental plain X-ray bitewing (procedure)
+  - Examination of gingivae (procedure)
+  - Oral health education (procedure)
+
+EPISODE 30: 28 January 2024 (age 42)
+Encounter: Consultation for treatment (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Social isolation (finding)
+  - Full-time employment (finding)
+  - Stress (finding)
+  - Medication review due (situation)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+Medications STARTED:
+  - {7 (ethinyl estradiol 0.01 MG Oral Tablet) / 84 (ethinyl estradiol 0.03 MG / levonorgestrel 0.15 MG Oral Tablet) } Pack [Seasonique]
+
+EPISODE 31: 22 January 2025 (age 43)
+Encounter: No encounter recorded  [setting: between visits]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Social isolation (finding)
+  - Full-time employment (finding)
+  - Stress (finding)
+  - Medication review due (situation)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+Medications STOPPED:
+  - {7 (ethinyl estradiol 0.01 MG Oral Tablet) / 84 (ethinyl estradiol 0.03 MG / levonorgestrel 0.15 MG Oral Tablet) } Pack [Seasonique]
+
+EPISODE 32: 09 June 2025 (age 44)
+Encounter: General examination of patient (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Social isolation (finding)
+  - Full-time employment (finding)
+  - Stress (finding)
+  - Medication review due (situation)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+NEW conditions / findings recorded:
+  - Body mass index 30+ - obesity (finding)
+  - Part-time employment (finding)
+  - Victim of intimate partner abuse (finding)
+Conditions / findings RESOLVED:
+  - Social isolation (finding)
+  - Full-time employment (finding)
+  - Stress (finding)
+Procedures / assessments:
+  - Assessment of health and social care needs (procedure)
+  - Screening for domestic abuse (procedure)
+  - Depression screening (procedure)
+  - Assessment of substance use (procedure)
+  - Screening for drug abuse (procedure)
+Vital signs:
+  - Body Height: 169.8 cm
+  - Pain severity - 0-10 verbal numeric rating - Reported: 4
+  - Body Weight: 86.9 kg
+  - Body mass index (BMI): 30.1 kg/m2
+  - Heart rate: 87 /min
+  - Respiratory rate: 13 /min
+Questionnaire scores:
+  - HARK total score: 0
+  - PHQ-2 total score: 1
+  - DAST-10 total score: 2
+Lab results:
+  - Basic metabolic panel - Blood: Glucose 95.3 mg/dL; Urea nitrogen 12.3 mg/dL; Creatinine 1.0 mg/dL; Calcium 9.2 mg/dL; Sodium 142.1 mmol/L; Potassium 4.5 mmol/L; Chloride 107.3 mmol/L; Carbon dioxide, total 23.1 mmol/L
+Immunizations given:
+  - Influenza, split virus, trivalent, PF
+Other:
+  - Tobacco smoking status NHIS
+
+EPISODE 33: 05 October 2025 (age 44)
+Encounter: Encounter for symptom (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Medication review due (situation)
+  - Body mass index 30+ - obesity (finding)
+  - Part-time employment (finding)
+  - Victim of intimate partner abuse (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+NEW conditions / findings recorded:
+  - Acute viral pharyngitis (disorder)
+Procedures / assessments:
+  - Throat culture (procedure)
+Vital signs:
+  - Body temperature: 38.0 Cel
+
+EPISODE 34: 17 October 2025 (age 44)
+Encounter: No encounter recorded  [setting: between visits]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Medication review due (situation)
+  - Body mass index 30+ - obesity (finding)
+  - Part-time employment (finding)
+  - Victim of intimate partner abuse (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+Conditions / findings RESOLVED:
+  - Acute viral pharyngitis (disorder)
+
+EPISODE 35: 17 January 2026 (age 44)
+Encounter: Consultation for treatment (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Medication review due (situation)
+  - Body mass index 30+ - obesity (finding)
+  - Part-time employment (finding)
+  - Victim of intimate partner abuse (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+Medications STARTED:
+  - {28 (norethindrone 0.35 MG Oral Tablet) } Pack [Errin 28 Day]
+
+EPISODE 36: 30 March 2026 (age 44)
+Encounter: Patient encounter procedure (procedure)  [setting: primary care]
+Already-active conditions:
+  - Received higher education (finding)
+  - Transport problem (finding)
+  - Lack of access to transportation (finding)
+  - Past pregnancy history of miscarriage (situation)
+  - Prediabetes (finding)
+  - Anemia (disorder)
+  - Limited social contact (finding)
+  - Medication review due (situation)
+  - Body mass index 30+ - obesity (finding)
+  - Part-time employment (finding)
+  - Victim of intimate partner abuse (finding)
+Medications already being taken:
+  - Hydrocortisone 10 MG/ML Topical Cream
+  - Fexofenadine hydrochloride 60 MG Oral Tablet
+  - NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector
+  - {28 (norethindrone 0.35 MG Oral Tablet) } Pack [Errin 28 Day]
+Procedures / assessments:
+  - Removal of subcutaneous contraceptive (procedure)
+  - Implantation of subcutaneous contraceptive (procedure)
