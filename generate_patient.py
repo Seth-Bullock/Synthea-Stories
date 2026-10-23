@@ -3,7 +3,7 @@ Generate the GP notes and patient letters for one or more Synthea C-CDA files.
 
 Usage:
     python generate_patient.py samples/Alexandra16_Mosciski958.xml
-    python generate_patient.py path/to/ccda_folder/ --model gemma3:12b
+    python generate_patient.py path/to/ccda_folder/ --model gemma3:12b --workers 3
     python generate_patient.py samples/Alexandra16_Mosciski958.xml --dry-run --max-episodes 5
 
 Needs an Ollama server running (see the Colab notebook), unless --dry-run is
@@ -14,7 +14,7 @@ is useful for checking the pipeline and reading the prompts in output/<Name>/pro
 import argparse
 from pathlib import Path
 
-from gpnotes.generate import generate_patient
+from gpnotes.generate import generate_many
 from gpnotes.llm import DryRunClient, OllamaClient
 
 
@@ -27,6 +27,8 @@ def main() -> None:
     parser.add_argument("--temperature", type=float, default=0.8)
     parser.add_argument("--out", default="output", help="output folder (default: output)")
     parser.add_argument("--max-episodes", type=int, help="only use the first N episodes (for quick tests)")
+    parser.add_argument("--workers", type=int, default=1,
+                        help="patients to generate at once; start Ollama with OLLAMA_NUM_PARALLEL set to match")
     parser.add_argument("--dry-run", action="store_true", help="don't call a model; write placeholders")
     args = parser.parse_args()
 
@@ -35,9 +37,7 @@ def main() -> None:
 
     source = Path(args.ccda)
     files = sorted(source.glob("*.xml")) if source.is_dir() else [source]
-    for i, path in enumerate(files, start=1):
-        print(f"\n=== Patient {i} of {len(files)}: {path.name}")
-        generate_patient(path, client, out_dir=args.out, max_episodes=args.max_episodes)
+    generate_many(files, client, out_dir=args.out, workers=args.workers, max_episodes=args.max_episodes)
 
 
 if __name__ == "__main__":

@@ -47,11 +47,13 @@ With an [Ollama](https://ollama.com) server running locally:
 
 ```bash
 python generate_patient.py samples/Alexandra16_Mosciski958.xml --model gemma3:12b
-python generate_patient.py path/to/folder_of_ccda_files/
+python generate_patient.py path/to/folder_of_ccda_files/ --workers 3   # 3 patients at a time
 python generate_patient.py samples/Alexandra16_Mosciski958.xml --dry-run   # no model; check prompts
 ```
 
-Output for each patient:
+For `--workers N`, start Ollama with `OLLAMA_NUM_PARALLEL=N` so it serves N requests at once.
+
+Output for each patient (`<Name>` includes the start of the Synthea patient ID, since names repeat):
 
 | File | Contents |
 | --- | --- |
@@ -62,3 +64,10 @@ Output for each patient:
 | `output/<Name>/ground_truth.json` | the parsed Synthea record |
 
 Interrupted runs resume where they stopped.
+
+## Speed
+
+Each document is one LLM call; prompts are assembled by ordinary Python from the parsed record.
+A patient's documents are written in order, because each prompt includes summaries of the
+earlier ones, but different patients are independent and are generated in parallel
+(`--workers`, or `WORKERS` in the notebook).
