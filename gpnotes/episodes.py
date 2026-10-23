@@ -104,6 +104,7 @@ def guess_setting(encounter_description: str) -> str:
         ("home visit", "home visit"), ("home health", "home visit"),
         ("telemedicine", "telephone/video"), ("telephone", "telephone/video"),
         ("hospice", "hospice"), ("skilled nursing", "nursing facility"),
+        ("rehabilitation", "rehabilitation"),
     ]
     for keyword, setting in rules:
         if keyword in d:
@@ -210,13 +211,25 @@ def episode_to_text(ep: Episode) -> str:
             lines.append(f"{title}:")
             lines.extend(f"  - {item}" for item in items)
 
+    # Synthea records a renewal as "stopped" and "started" at the same visit; show it as a renewal.
+    renewed = _unique(e.description for e in ep.started_medications)
+    renewed = [d for d in renewed if d in {e.description for e in ep.stopped_medications}]
+    rerecorded = [d for d in _unique(e.description for e in ep.new_conditions)
+                  if d in {e.description for e in ep.resolved_conditions}]
+
     section("Already-active conditions", ep.active_conditions)
     section("Medications already being taken", ep.current_medications)
-    section("NEW conditions / findings recorded", [e.description for e in ep.new_conditions])
-    section("Conditions / findings RESOLVED", [e.description for e in ep.resolved_conditions])
+    section("NEW conditions / findings recorded",
+            _unique(e.description for e in ep.new_conditions if e.description not in rerecorded))
+    section("Conditions / findings RESOLVED",
+            _unique(e.description for e in ep.resolved_conditions if e.description not in rerecorded))
+    section("Conditions / findings reviewed and still current", rerecorded)
     section("Allergies recorded", [e.description for e in ep.allergies])
-    section("Medications STARTED", [e.description for e in ep.started_medications])
-    section("Medications STOPPED", [e.description for e in ep.stopped_medications])
+    section("Medications STARTED",
+            _unique(e.description for e in ep.started_medications if e.description not in renewed))
+    section("Medications STOPPED",
+            _unique(e.description for e in ep.stopped_medications if e.description not in renewed))
+    section("Medications RENEWED (continuing)", renewed)
     section("Procedures / assessments", _unique(e.description for e in ep.procedures))
     section("Vital signs", [f"{short_name(e)}: {_round_value(e.value)}" for e in ep.vitals])
     section("Questionnaire scores", [f"{short_name(e)}: {e.value}" for e in ep.surveys])

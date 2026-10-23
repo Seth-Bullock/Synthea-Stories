@@ -228,9 +228,7 @@ Medications already being taken:
   - 1 ML medroxyPROGESTERone acetate 150 MG/ML Injection
 Conditions / findings RESOLVED:
   - Gingivitis (disorder)
-Medications STARTED:
-  - sodium fluoride 0.0272 MG/MG Oral Gel
-Medications STOPPED:
+Medications RENEWED (continuing):
   - sodium fluoride 0.0272 MG/MG Oral Gel
 Procedures / assessments:
   - Dental consultation and report (procedure)

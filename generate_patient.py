@@ -27,6 +27,8 @@ def main() -> None:
     parser.add_argument("--temperature", type=float, default=0.8)
     parser.add_argument("--out", default="output", help="output folder (default: output)")
     parser.add_argument("--max-episodes", type=int, help="only use the first N episodes (for quick tests)")
+    parser.add_argument("--max-documents", type=int,
+                        help="cap on documents per patient; the most eventful episodes are kept")
     parser.add_argument("--workers", type=int, default=1,
                         help="patients to generate at once; start Ollama with OLLAMA_NUM_PARALLEL set to match")
     parser.add_argument("--dry-run", action="store_true", help="don't call a model; write placeholders")
@@ -37,7 +39,8 @@ def main() -> None:
 
     source = Path(args.ccda)
     files = sorted(source.glob("*.xml")) if source.is_dir() else [source]
-    generate_many(files, client, out_dir=args.out, workers=args.workers, max_episodes=args.max_episodes)
+    generate_many(files, client, out_dir=args.out, workers=args.workers, max_episodes=args.max_episodes,
+                  max_documents=args.max_documents)
 
 
 if __name__ == "__main__":

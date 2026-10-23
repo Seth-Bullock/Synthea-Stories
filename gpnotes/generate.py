@@ -10,7 +10,7 @@ Everything is saved as it is produced, in output/<Name>/:
     profile.json        the invented background
     documents.jsonl     one line per finished document (the checkpoint)
     prompts/            the exact prompt sent for each document, for inspection
-    ground_truth.json   the parsed record, for checking students' work
+    ground_truth.json   the parsed record, and which episodes were written up
 Re-running skips documents already in documents.jsonl, so an interrupted Colab
 session can simply be resumed.
 """
@@ -31,35 +31,62 @@ from .planner import DocumentPlan, plan_documents
 
 STORY_SO_FAR_LENGTH = 12        # how many earlier document summaries each prompt sees
 CHILD_AGE = 16                  # below this, patient messages are written by a parent
+SUMMARY_MAX_ITEMS = 60          # cap on conditions / medications listed in the record summary
+SUMMARY_MAX_SCORES = 6          # most recent questionnaire scores listed per questionnaire
 
 
 # ---------------------------------------------------------------- record summary for the profile
 
+def _year_ranges(events) -> str:
+    """Merge one item's periods into year ranges, e.g. '2010-2016, 2019-ongoing'.
+
+    Synthea records every renewal of a long-term prescription as a separate entry
+    (hundreds, for some patients), so merging keeps the summary short."""
+    merged: list[list] = []
+    for start, stop in sorted(((e.start.year, e.stop.year if e.stop else None) for e in events),
+                              key=lambda span: (span[0], span[1] is None, span[1] or 0)):
+        if merged and (merged[-1][1] is None or start <= merged[-1][1] + 1):
+            if merged[-1][1] is not None:
+                merged[-1][1] = None if stop is None else max(merged[-1][1], stop)
+        else:
+            merged.append([start, stop])
+    text = ", ".join(f"{a}-{b if b is not None else 'ongoing'}" for a, b in merged)
+    return text + (f" ({len(events)} entries)" if len(events) > 1 else "")
+
+
+def _grouped_lines(events) -> list[str]:
+    groups = defaultdict(list)
+    for e in events:
+        groups[e.description].append(e)
+    lines = [f"  - {name}: {_year_ranges(evs)}" for name, evs in groups.items()]
+    if len(lines) > SUMMARY_MAX_ITEMS:
+        lines = lines[:SUMMARY_MAX_ITEMS] + [f"  - ...and {len(lines) - SUMMARY_MAX_ITEMS} more"]
+    return lines
+
+
 def record_summary(patient: Patient, episodes: list[Episode]) -> str:
     """A compact whole-life summary of the record, used to invent the profile."""
-    def years(e) -> str:
-        return f"{e.start.year}-{e.stop.year if e.stop else 'ongoing'}"
-
     by_cat = defaultdict(list)
     for e in patient.events:
         by_cat[e.category].append(e)
 
     lines = [patient_header_text(patient), ""]
     lines.append("Conditions and social findings (years active):")
-    lines += [f"  - {e.description}: {years(e)}" for e in by_cat["condition"]]
+    lines += _grouped_lines(by_cat["condition"])
     lines.append("Medications (years taken):")
-    lines += [f"  - {e.description}: {years(e)}" for e in by_cat["medication"]]
+    lines += _grouped_lines(by_cat["medication"])
     if by_cat["allergy"]:
-        lines.append("Allergies: " + "; ".join(e.description for e in by_cat["allergy"]))
+        lines.append("Allergies: " + "; ".join(dict.fromkeys(e.description for e in by_cat["allergy"])))
     if by_cat["careplan"]:
-        lines.append("Care plans: " + "; ".join(f"{e.description} ({years(e)})" for e in by_cat["careplan"]))
+        lines.append("Care plans:")
+        lines += _grouped_lines(by_cat["careplan"])
 
     scores = defaultdict(list)
     for e in by_cat["survey"]:
         scores[short_name(e)].append(f"{e.value} ({e.start.year})")
     if scores:
-        lines.append("Questionnaire scores over time:")
-        lines += [f"  - {name}: {', '.join(vals)}" for name, vals in scores.items()]
+        lines.append("Questionnaire scores over time (most recent):")
+        lines += [f"  - {name}: {', '.join(vals[-SUMMARY_MAX_SCORES:])}" for name, vals in scores.items()]
     for e in by_cat["social"]:
         lines.append(f"{e.description}: {e.value} ({e.start.year})")
 
@@ -80,14 +107,31 @@ def make_profile(patient: Patient, episodes: list[Episode], client, prompt_dir: 
         first_year=episodes[0].start.year, last_year=episodes[-1].start.year,
         practice=patient.practice)
     (prompt_dir / "000-profile.txt").write_text(prompt)
-    for attempt in range(3):
+    for attempt in range(1, 4):
+        reply = client.chat(prompts.SYSTEM_PROMPT, prompt, json_mode=True)
+        (prompt_dir / f"000-profile.reply{attempt}.txt").write_text(reply)
+        profile = _parse_profile(reply)
+        if profile:
+            if not isinstance(profile.get("gp_history"), list) or not profile["gp_history"]:
+                profile["gp_history"] = [{"name": "Dr Morgan", "from_year": episodes[0].start.year,
+                                          "to_year": episodes[-1].start.year}]
+            return profile
+    raise RuntimeError("The model did not return a usable profile after 3 attempts; "
+                       f"its replies are in {prompt_dir}/000-profile.reply*.txt")
+
+
+def _parse_profile(reply: str) -> dict | None:
+    """Read the profile JSON, tolerating extra text around it or an outer wrapper object."""
+    for candidate in (reply, reply[reply.find("{"):reply.rfind("}") + 1]):
         try:
-            profile = json.loads(client.chat(prompts.SYSTEM_PROMPT, prompt, json_mode=True))
-            if isinstance(profile, dict) and profile.get("gp_history"):
-                return profile
+            profile = json.loads(candidate)
         except json.JSONDecodeError:
-            pass
-    raise RuntimeError("The model did not return a usable profile after 3 attempts.")
+            continue
+        if isinstance(profile, dict) and len(profile) == 1 and isinstance(next(iter(profile.values())), dict):
+            profile = next(iter(profile.values()))          # e.g. {"profile": {...}}
+        if isinstance(profile, dict) and len(profile) >= 5:
+            return profile
+    return None
 
 
 def profile_text(profile: dict) -> str:
@@ -174,7 +218,7 @@ def split_summary(text: str) -> tuple[str, str]:
 # ---------------------------------------------------------------- whole patient
 
 def generate_patient(ccda_path: str | Path, client, out_dir: str | Path = "output",
-                     max_episodes: int | None = None, log=print) -> Path:
+                     max_episodes: int | None = None, max_documents: int | None = None, log=print) -> Path:
     patient = parse_ccda(ccda_path)
     episodes = build_episodes(patient)
     if max_episodes:
@@ -184,8 +228,6 @@ def generate_patient(ccda_path: str | Path, client, out_dir: str | Path = "outpu
     stem = f"{patient.given_name}_{patient.family_name}_{patient.id[:8]}"
     work = Path(out_dir) / stem
     (work / "prompts").mkdir(parents=True, exist_ok=True)
-    (work / "ground_truth.json").write_text(json.dumps(
-        {"patient": patient.to_dict(), "episodes": [ep.to_dict() for ep in episodes]}, indent=2))
 
     profile_path = work / "profile.json"
     if profile_path.exists():
@@ -195,14 +237,21 @@ def generate_patient(ccda_path: str | Path, client, out_dir: str | Path = "outpu
         profile = make_profile(patient, episodes, client, work / "prompts")
         profile_path.write_text(json.dumps(profile, indent=2))
 
-    plans = plan_documents(episodes, seed=patient.id)
+    plans = plan_documents(episodes, seed=patient.id, max_documents=max_documents)
+    # The ground truth covers every episode; "documents" says which ones were written up.
+    (work / "ground_truth.json").write_text(json.dumps(
+        {"patient": patient.to_dict(), "episodes": [ep.to_dict() for ep in episodes],
+         "documents": [{"doc_id": p.doc_id, "episode": p.episode.index, "kind": p.kind,
+                        "date": p.date.isoformat()} for p in plans]}, indent=2))
     done_path = work / "documents.jsonl"
     done = {}
     if done_path.exists():
         for line in done_path.read_text().splitlines():
             doc = json.loads(line)
             done[doc["doc_id"]] = doc
-    log(f"{len(plans)} documents planned for {len(episodes)} episodes; {len(done)} already written.")
+    log(f"{len(plans)} documents planned for {len(episodes)} episodes"
+        f"{f' (capped at {max_documents})' if max_documents and len(plans) == max_documents else ''}; "
+        f"{len(done)} already written.")
 
     summaries = [done[p.doc_id] for p in plans if p.doc_id in done]
     for n, plan in enumerate(plans, start=1):
@@ -232,7 +281,7 @@ def generate_patient(ccda_path: str | Path, client, out_dir: str | Path = "outpu
 
 
 def generate_many(ccda_paths: list, client, out_dir: str | Path = "output", workers: int = 3,
-                  max_episodes: int | None = None) -> list[Path]:
+                  max_episodes: int | None = None, max_documents: int | None = None) -> list[Path]:
     """Generate several patients at once.
 
     Documents for one patient must be written in order (each sees the earlier ones), but
@@ -247,7 +296,7 @@ def generate_many(ccda_paths: list, client, out_dir: str | Path = "output", work
     def run(i: int, path: Path) -> Path:
         tag = f"[{i}/{len(paths)} {path.stem.split('_')[0]}]"
         return generate_patient(path, client, out_dir=out_dir, max_episodes=max_episodes,
-                                log=lambda msg: print(f"{tag} {msg}", flush=True))
+                                max_documents=max_documents, log=lambda msg: print(f"{tag} {msg}", flush=True))
 
     with ThreadPoolExecutor(max_workers=workers) as pool:
         futures = {pool.submit(run, i, p): p for i, p in enumerate(paths, start=1)}

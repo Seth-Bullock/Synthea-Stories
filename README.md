@@ -22,7 +22,8 @@ The notebook installs [Ollama](https://ollama.com), downloads an open-weight mod
    episodes.
 3. **Plan** (`gpnotes/planner.py`): decide which documents to write. Every primary-care visit
    gets a GP note; A&E and hospital visits get a letter to the GP; patient messages are added
-   at random, more often around visits where something changed.
+   at random, more often around visits where something changed. Long records can be capped
+   (`--max-documents`): the most eventful visits are kept and routine repeat visits dropped.
 4. **Generate** (`gpnotes/generate.py`, prompts in `gpnotes/prompts.py`): the LLM first invents
    a consistent background for the patient (family, work, personality, writing style, GPs), then
    writes each document from that profile, summaries of earlier documents, and the episode's
@@ -47,7 +48,7 @@ With an [Ollama](https://ollama.com) server running locally:
 
 ```bash
 python generate_patient.py samples/Alexandra16_Mosciski958.xml --model gemma3:12b
-python generate_patient.py path/to/folder_of_ccda_files/ --workers 3   # 3 patients at a time
+python generate_patient.py path/to/folder_of_ccda_files/ --workers 3 --max-documents 60
 python generate_patient.py samples/Alexandra16_Mosciski958.xml --dry-run   # no model; check prompts
 ```
 
