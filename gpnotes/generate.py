@@ -218,8 +218,12 @@ def split_summary(text: str) -> tuple[str, str]:
 # ---------------------------------------------------------------- whole patient
 
 def generate_patient(ccda_path: str | Path, client, out_dir: str | Path = "output",
-                     max_episodes: int | None = None, max_documents: int | None = None, log=print) -> Path:
+                     max_episodes: int | None = None, max_documents: int | None = None,
+                     skip_deceased: bool = False, log=print) -> Path | None:
     patient = parse_ccda(ccda_path)
+    if skip_deceased and patient.death_date:
+        log(f"Skipped: {patient.full_name} died on {patient.death_date:%d %B %Y}.")
+        return None
     episodes = build_episodes(patient)
     if max_episodes:
         episodes = episodes[:max_episodes]
@@ -281,7 +285,8 @@ def generate_patient(ccda_path: str | Path, client, out_dir: str | Path = "outpu
 
 
 def generate_many(ccda_paths: list, client, out_dir: str | Path = "output", workers: int = 3,
-                  max_episodes: int | None = None, max_documents: int | None = None) -> list[Path]:
+                  max_episodes: int | None = None, max_documents: int | None = None,
+                  skip_deceased: bool = False) -> list[Path]:
     """Generate several patients at once.
 
     Documents for one patient must be written in order (each sees the earlier ones), but
@@ -290,24 +295,30 @@ def generate_many(ccda_paths: list, client, out_dir: str | Path = "output", work
     throughput. The Ollama server must allow as many parallel requests (OLLAMA_NUM_PARALLEL).
     """
     paths = [Path(p) for p in ccda_paths]
-    results, failures = [], []
+    results, failures, skipped = [], [], 0
     started = time.time()
 
     def run(i: int, path: Path) -> Path:
         tag = f"[{i}/{len(paths)} {path.stem.split('_')[0]}]"
         return generate_patient(path, client, out_dir=out_dir, max_episodes=max_episodes,
-                                max_documents=max_documents, log=lambda msg: print(f"{tag} {msg}", flush=True))
+                                max_documents=max_documents, skip_deceased=skip_deceased,
+                                log=lambda msg: print(f"{tag} {msg}", flush=True))
 
     with ThreadPoolExecutor(max_workers=workers) as pool:
         futures = {pool.submit(run, i, p): p for i, p in enumerate(paths, start=1)}
         for future in as_completed(futures):
             try:
-                results.append(future.result())
+                result = future.result()
+                if result is None:
+                    skipped += 1
+                else:
+                    results.append(result)
             except Exception as err:          # keep going; a re-run will retry this patient
                 failures.append(futures[future])
                 print(f"FAILED {futures[future].name}: {err}", flush=True)
 
-    print(f"\nFinished {len(results)} of {len(paths)} patients in {(time.time() - started) / 60:.0f} minutes.")
+    print(f"\nFinished {len(results)} of {len(paths)} patients in {(time.time() - started) / 60:.0f} minutes"
+          + (f" ({skipped} deceased patients skipped)." if skipped else "."))
     if failures:
         print("Failed (re-run to retry):", ", ".join(p.name for p in failures))
     return sorted(results)

@@ -48,7 +48,7 @@ With an [Ollama](https://ollama.com) server running locally:
 
 ```bash
 python generate_patient.py samples/Alexandra16_Mosciski958.xml --model gemma3:12b
-python generate_patient.py path/to/folder_of_ccda_files/ --workers 3 --max-documents 60
+python generate_patient.py path/to/folder_of_ccda_files/ --workers 3 --max-documents 60 --skip-deceased
 python generate_patient.py samples/Alexandra16_Mosciski958.xml --dry-run   # no model; check prompts
 ```
 

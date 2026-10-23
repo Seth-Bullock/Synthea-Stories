@@ -13,6 +13,7 @@
     "practice_name": "WESTON PRIMARY CARE, PC",
     "practice_city": "Weston",
     "record_date": "2026-08-24T22:20:00+00:00",
+    "death_date": null,
     "events": [
       {
         "category": "encounter",

@@ -72,6 +72,7 @@ class Patient:
     practice_name: str = ""
     practice_city: str = ""
     record_date: Optional[datetime] = None
+    death_date: Optional[datetime] = None
     events: list[Event] = field(default_factory=list)
 
     @property
@@ -92,6 +93,7 @@ class Patient:
         d = asdict(self)
         d["birth_date"] = self.birth_date.date().isoformat()
         d["record_date"] = self.record_date.isoformat() if self.record_date else None
+        d["death_date"] = self.death_date.isoformat() if self.death_date else None
         d["events"] = [e.to_dict() for e in self.events]
         return d
 
@@ -259,4 +261,9 @@ def parse_ccda(path: str | Path) -> Patient:
     # Questionnaire scores appear in both Functional Status and Results: keep one copy.
     unique = {(e.category, e.start, e.description, e.value): e for e in patient.events}
     patient.events = sorted(unique.values(), key=lambda e: e.start)
+
+    # Synthea's C-CDA has no "deceased" flag; a death appears as a final
+    # "Death Certification" encounter (plus a death certificate result).
+    patient.death_date = next((e.start for e in patient.events
+                               if e.category == "encounter" and e.description == "Death Certification"), None)
     return patient
