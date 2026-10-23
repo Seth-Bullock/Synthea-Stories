@@ -19,6 +19,10 @@ import urllib.error
 import urllib.request
 
 
+class OllamaUnavailable(RuntimeError):
+    """The Ollama server is not running (for example it crashed after running out of memory)."""
+
+
 class OllamaClient:
     def __init__(self, model: str = "gemma3:12b", host: str = "http://localhost:11434",
                  num_ctx: int = 8192, temperature: float = 0.8, timeout: int = 900, retries: int = 3,
@@ -51,9 +55,18 @@ class OllamaClient:
                 return result["message"]["content"]
             except (urllib.error.URLError, TimeoutError, ConnectionError) as err:
                 if attempt == self.retries:
+                    if not self.is_running():
+                        raise OllamaUnavailable(f"The Ollama server at {self.host} is not running.") from err
                     raise RuntimeError(f"Ollama request failed after {attempt} attempts: {err}") from err
                 time.sleep(5 * attempt)
         raise AssertionError("unreachable")
+
+    def is_running(self) -> bool:
+        try:
+            urllib.request.urlopen(self.host, timeout=10)
+            return True
+        except (urllib.error.URLError, TimeoutError, ConnectionError):
+            return False
 
     def _check_length(self, result: dict) -> None:
         """Warn when a prompt filled the context window (Ollama then silently drops its start)

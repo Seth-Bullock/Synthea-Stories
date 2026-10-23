@@ -27,6 +27,7 @@ from pathlib import Path
 
 from . import prompts
 from .ccda_parser import Patient, parse_ccda
+from .llm import OllamaUnavailable
 from .episodes import Episode, build_episodes, episode_to_text, patient_header_text, short_name
 from .planner import DocumentPlan, plan_documents
 
@@ -321,6 +322,8 @@ def generate_many(ccda_paths: list, client, out_dir: str | Path = "output", work
     paths = [Path(p) for p in ccda_paths]
     results, failures, skipped = [], [], 0
     started = time.time()
+    if hasattr(client, "is_running") and not client.is_running():
+        raise OllamaUnavailable(OLLAMA_DOWN)
     _stop.clear()
 
     def run(i: int, path: Path) -> Path:
@@ -339,6 +342,11 @@ def generate_many(ccda_paths: list, client, out_dir: str | Path = "output", work
                     skipped += 1
                 else:
                     results.append(result)
+            except OllamaUnavailable:
+                # Every remaining patient would fail too, so stop the whole batch.
+                _stop.set()
+                pool.shutdown(wait=True, cancel_futures=True)
+                raise OllamaUnavailable(OLLAMA_DOWN) from None
             except Exception as err:          # keep going; a re-run will retry this patient
                 failures.append(futures[future])
                 print(f"FAILED {futures[future].name}: {err}", flush=True)
@@ -357,6 +365,11 @@ def generate_many(ccda_paths: list, client, out_dir: str | Path = "output", work
     if failures:
         print("Failed (re-run to retry):", ", ".join(p.name for p in failures))
     return sorted(results)
+
+
+OLLAMA_DOWN = ("The Ollama server is not running, so the batch has stopped. It may have crashed after "
+               "running out of memory. Everything written so far is saved: restart Ollama (steps 4 and 5 "
+               "in the notebook), then run this again to carry on.")
 
 
 def author_for(plan: DocumentPlan, patient: Patient, profile: dict) -> str:
